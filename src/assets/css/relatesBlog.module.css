@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap");
+.main {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 20px;
+}
+@media screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+}
+.main img {
+  width: 300px;
+  height: auto;
+}
+@media screen and (max-width: 768px) {
+  .main img {
+    width: 100%;
+  }
+}
+.main .date {
+  font: normal normal normal 20px/24px "Italiana", serif;
+  letter-spacing: 0px;
+  color: #CDB071;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.main .header {
+  text-align: left;
+  font: normal normal normal 26px/40px Italiana;
+  letter-spacing: 0px;
+  color: #FFFFFFB3;
+  opacity: 1;
+  width: 300px;
+}
+
+.title {
+  margin-top: 2rem;
+  letter-spacing: 0px;
+  color: #ebcd8b;
+  text-transform: capitalize;
+  opacity: 1;
+  font: normal normal normal 64px/75px "Italiana", serif;
+  text-align: center;
+}/*# sourceMappingURL=relatesBlog.module.css.map */

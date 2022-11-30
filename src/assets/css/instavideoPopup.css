@@ -1,0 +1,48 @@
+.instaVideoPopUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000c9;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+.instaVideoPopUp .videoContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 40%;
+  height: 90vh;
+}
+@media only screen and (max-width: 769px) {
+  .instaVideoPopUp .videoContainer {
+    position: relative;
+    width: 100%;
+  }
+}
+.instaVideoPopUp video {
+  width: 100%;
+  height: 100%;
+}
+.instaVideoPopUp img {
+  width: 100%;
+}
+.instaVideoPopUp .close {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 769px) {
+  .instaVideoPopUp .close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    z-index: 6;
+  }
+}/*# sourceMappingURL=instavideoPopup.css.map */

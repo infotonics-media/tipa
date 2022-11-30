@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap");
+.main {
+  background: transparent linear-gradient(1deg, #000000 0%, #121212 100%) 0% 0% no-repeat padding-box;
+  width: 1006px;
+  height: 231px;
+  display: flex;
+  margin: 40px auto;
+  align-items: center;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+}
+.main h2 {
+  font: normal normal normal 26px/40px "Italiana", serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.main h2 span {
+  padding-right: 20px;
+}
+.main h2 span img {
+  width: 30px;
+}
+.main p {
+  width: 572px;
+  font: normal normal normal 16px/32px "Libre Caslon Text", serif;
+  letter-spacing: 0.16px;
+  color: #ffffffb3;
+  opacity: 1;
+}
+@media only screen and (max-width: 768px) {
+  .main p {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main .mobilepadding {
+    padding: 55px;
+  }
+}
+.main .button .btn {
+  padding: 0.6rem 3rem;
+  border-radius: 10px 0;
+  background: transparent linear-gradient(180deg, #c1a14a 0%, #3c2e09 100%) 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  text-decoration: none;
+}
+@media only screen and (max-width: 500px) {
+  .main .button .btn {
+    padding: 0.3rem 2.5rem;
+  }
+}/*# sourceMappingURL=pitchdesk.module.css.map */

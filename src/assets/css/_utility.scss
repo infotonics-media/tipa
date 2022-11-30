@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap");
+$italiana: "Italiana", serif;
+$libre: "Libre Caslon Text", serif;
+$montserrat: "Montserrat", sans-serif;
+$subcategorycolo: #707070;
+
+// Color
+
+$backgroundColor: #000000;
+$primarySurface: #000000;
+$greybackground:transparent linear-gradient(1deg, #000000 0%, #121212 100%) 0% 0% no-repeat padding-box;
+$glowingGolden: transparent linear-gradient(180deg, #e6b31e 0%, #be9639 100%) 0%
+  0% no-repeat padding-box;
+$highlight: #ebcd8b;
+$headingText: #ebcd8b 0% 0% no-repeat padding-box;
+$prmaryButton: transparent linear-gradient(180deg, #c1a14a 0%, #3c2e09 100%) 0%
+  0% no-repeat padding-box;
+$onSurfaceWhite: #ffffffb3 0% 0% no-repeat padding-box;
+$gold:#CDB071;
+$textColor:#828282;
+$white:#FFFFFF;
+
+//Spacing
+
+$sp100: 100px;
+$sp80: 80px;
+$sp60: 60px;
+$sp40: 40px;
+$sp32: 32px;
+$sp20: 20px;
+$sp16: 16px;
+$sp8: 8px;
+
+//Font

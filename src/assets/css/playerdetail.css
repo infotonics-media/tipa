@@ -1,0 +1,619 @@
+.pdetail-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detail-nav-links {
+  top: 0;
+}
+
+@media screen and (max-width: 550px) {
+  .pdetail-navbar .nav-links ul {
+    margin-top: 6rem;
+  }
+  .detail-logo {
+    width: 52px !important;
+    margin: 0 4% !important;
+    margin-top: 0 !important;
+  }
+}
+
+.detail-logo {
+  position: relative;
+  width: 105.56px;
+  margin: 2% 10%;
+  z-index: 15;
+}
+
+.detail-logo > img {
+  height: 100%;
+  width: 100%;
+}
+
+.detail-menu {
+  position: relative;
+  text-align: left;
+  font: normal normal 400 20px/24px Cormorant Garamond;
+  letter-spacing: 0px;
+  color: #cdb071;
+  opacity: 1;
+  margin-right: 10%;
+  text-align: left;
+  z-index: 15;
+}
+
+.detail-player-card {
+  width: 100%;
+  background: transparent linear-gradient(180deg, #00334e 0%, #00334e 100%) 0%
+    0% no-repeat padding-box;
+  position: relative;
+  margin: 0 auto;
+}
+.detail-wrapper {
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+  margin: 3% auto;
+  padding: 0 !important;
+  flex-wrap: wrap;
+}
+
+.detail-img-wrapper {
+  position: relative;
+  background-color: #00334e;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.detail-img-wrapper img {
+  margin: 1rem 0 0;
+  width: 340px;
+  outline: none;
+}
+
+.player-img {
+  height: 95%;
+  width: 100%;
+}
+
+.detail-player-name {
+  text-align: left;
+  font-family: Libre Caslon Display;
+  font-size: 3.5rem;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-bottom: 5%;
+  padding: 0 !important;
+}
+
+.player-about-me {
+  width: 100%;
+  margin: 5% auto 0%;
+  background-color: #fff !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-bottom: 8%;
+}
+
+.detail-player-about {
+  text-align: left;
+  font: normal normal normal 24px/29px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: capitalize;
+  opacity: 1;
+  width: 434.37px;
+  height: 75.5px;
+  margin: 3% 0;
+  border-bottom: 1px solid #cdb071;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: default;
+}
+
+.detail-player-stories {
+  text-align: left;
+  font: normal normal normal 24px/29px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: capitalize;
+  opacity: 1;
+  width: 434.37px;
+  height: 75.5px;
+  border-bottom: 1px solid #cdb071;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: default;
+}
+
+.detail-player-showcase {
+  margin: 3% 0;
+  text-align: left;
+  font: normal normal normal 24px/29px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: capitalize;
+  opacity: 1;
+  width: 434.37px;
+  height: 75.5px;
+  border-bottom: 1px solid #cdb071;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: default;
+}
+
+.detail-player-videos {
+  text-align: left;
+  margin: 3% 0;
+  font: normal normal normal 24px/29px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: capitalize;
+  opacity: 1;
+  width: 434.37px;
+  height: 75.5px;
+  border-bottom: 1px solid #cdb071;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: default;
+}
+
+.detail-icons {
+  margin: 3% 0;
+  width: 112.92px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 16px;
+  margin-top: 3rem;
+}
+
+.detail-more-info {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: 50%;
+  background-color: inherit;
+  border: #cdb071 1px solid;
+  color: #cdb071;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.detail-icons > img:first-child {
+  height: 100%;
+  width: 7.23px;
+}
+
+.detail-icons > img:nth-child(2) {
+  height: 100%;
+  width: 16.85px;
+}
+
+.detail-icons > img:last-child {
+  height: 100%;
+  width: 13.69px;
+}
+
+.arrow {
+  height: 40%;
+  width: 40%;
+  transform: rotate(180deg);
+}
+
+.detail-about {
+  flex: 0.3;
+  text-align: left;
+  font: normal normal normal 80px/167px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-left: 10%;
+}
+
+.detail-desc-all {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.detail-desc {
+  width: 60%;
+  opacity: 1;
+  margin-top: 4rem;
+}
+
+.detail-heading {
+  border-bottom: 1px solid #cdb071;
+  height: 33.5px;
+}
+
+.detail-short {
+  height: 141px;
+  text-align: left;
+  font: normal normal normal 18px/28px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  overflow: hidden;
+-webkit-overflow-scrolling: hidden;
+}
+
+.detail-img {
+  height: 475px;
+  width: 421px;
+}
+.detail-img > img {
+  height: 100%;
+  width: 100%;
+}
+
+.stories-header {
+  background-color: #fff !important;
+  padding-bottom: 8%;
+}
+.detail-stories-heading {
+  width: 80%;
+  margin: 0 auto;
+  font: normal normal normal 81px/167px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.detail-stories-img {
+  width: 80%;
+  margin: 3% auto 0%;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+
+.detail-stories-img > .box {
+  min-width: 280px;
+  margin-left: 1rem;
+  margin-right: 3rem;
+}
+.detail-stories-img > .box:nth-last-child(1) {
+  padding-right: 0rem;
+}
+
+.detail-stories-img > .box > img {
+  height: 271px;
+  width: 100%;
+}
+
+.detail-stories-img > .box > .date {
+  margin-top: 34px;
+  text-align: left;
+  font: normal normal normal 12px/20px Libre Caslon Display;
+  letter-spacing: 2.4px;
+  color: #928f8f;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.detail-stories-img > .box > .content {
+  margin-top: 23px;
+  width: 90%;
+  text-align: left;
+  font: normal normal normal 18px/28px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.detail-videos {
+  background: #00334e 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.detail-video-heading {
+  text-align: left;
+  font: normal normal normal 52px/60px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.detail-video-subheading {
+  text-align: center;
+  font: normal normal normal 24px/38px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #acacac;
+  opacity: 1;
+  position: absolute;
+  top: 142.5px;
+  left: 461px;
+  width: 444px;
+  overflow: hidden;
+-webkit-overflow-scrolling: hidden;
+  height: 85px;
+}
+
+.detail-showcase {
+  background: #00334e 0% 0% no-repeat padding-box;
+  padding-bottom: 5%;
+}
+
+.detail-showcase-heading {
+  text-align: center;
+  font: normal normal normal 52px/60px Italiana;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: uppercase;
+  opacity: 1;
+  margin: 5% auto 3%;
+}
+
+.detail-showcase-desc {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 3% auto;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #707070;
+  width: 90%;
+}
+
+.detail-showcase-desc > .year {
+  text-align: left;
+  font: normal normal normal 48px/62px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  opacity: 1;
+}
+
+.detail-showcase-desc > .name {
+  text-align: left;
+  font: normal normal normal 33px/38px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  opacity: 1;
+}
+
+.detail-showcase-desc > .desc {
+  width: 390px;
+  overflow: hidden;
+-webkit-overflow-scrolling: hidden;
+  height: 44px;
+  text-align: left;
+  font: normal normal normal 14px/20px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  opacity: 1;
+}
+
+.detail-more-info:active,
+.detail-more-info:focus {
+  outline: none;
+}
+
+.bottom-message {
+  background-color: #fff;
+  margin: 5% auto;
+  text-align: center;
+  font: normal normal normal 32px/40px Italiana;
+  letter-spacing: 0px;
+  color: #cdb071;
+  opacity: 1;
+}
+.bottom-message p {
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 40px;
+  width: 40%;
+  margin: 1% auto;
+  padding: 5% 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .detail-wrapper {
+    justify-content: center;
+  }
+  .name-about-container {
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .detail-img-wrapper img {
+    width: 290px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .detail-img-wrapper img {
+    width: 172px;
+  }
+  .detail-wrapper {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .detail-nav-links {
+    top: 30px;
+  }
+  .detail-player-card {
+    width: 100%;
+  }
+  .detail-menu {
+    font-size: 14px;
+    margin-right: 5%;
+  }
+  .player-about-me {
+    flex-direction: column;
+    align-items: center;
+  }
+  .detail-icons {
+    margin-bottom: 2rem;
+  }
+  .detail-about {
+    margin-left: 0;
+    text-align: center !important;
+  }
+  .detail-player-name {
+    text-align: center;
+    font: normal normal normal 24px/59px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #cdb071;
+    text-transform: capitalize;
+    opacity: 1;
+    width: 90%;
+  }
+  .detail-player-about {
+    text-align: left;
+    font: normal normal normal 18px/22px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #cdb071;
+    text-transform: capitalize;
+    opacity: 1;
+    width: 90%;
+    cursor: pointer;
+  }
+  .detail-player-stories {
+    text-align: left;
+    font: normal normal normal 18px/22px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #cdb071;
+    text-transform: capitalize;
+    opacity: 1;
+    width: 90%;
+    cursor: pointer;
+  }
+  .detail-stories-img {
+    overflow: auto;
+-webkit-overflow-scrolling: auto;
+    width: 100%;
+    margin: 5% 0;
+    justify-content: left;
+  }
+  .detail-img {
+    box-sizing: border-box;
+    width: 100% !important;
+    padding: 0 10px;
+  }
+  .box {
+    width: 70%;
+    margin-right: 3rem;
+    margin-left: 1rem;
+  }
+  .detail-player-videos {
+    text-align: left;
+    font: normal normal normal 18px/22px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #cdb071;
+    text-transform: capitalize;
+    opacity: 1;
+    width: 90%;
+    cursor: pointer;
+  }
+  .detail-player-showcase {
+    text-align: left;
+    font: normal normal normal 18px/22px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #cdb071;
+    text-transform: capitalize;
+    opacity: 1;
+    width: 90%;
+    cursor: pointer;
+  }
+  .name-about-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+  }
+  .detail-showcase-desc {
+    justify-content: space-evenly;
+    width: 90%;
+  }
+  .detail-showcase-desc > .desc {
+    height: 0 !important;
+    width: 0 !important;
+  }
+  .detail-stories-heading {
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem 0;
+  }
+  .detail-desc {
+    width: 85% !important;
+  }
+  .bottom-message p {
+    padding-top: 67px;
+    padding-bottom: 92px;
+    font-size: 26px;
+    letter-spacing: 0;
+    line-height: 33px;
+    width: 85%;
+  }
+  .detail-stories-heading {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .detail-showcase-heading {
+    font-size: 2rem;
+  }
+  .detail-player-card {
+    margin: 2% auto 3%;
+  }
+  .detail-showcase-desc {
+    padding-bottom: 0;
+  }
+  .detail-showcase-desc > .year {
+    font-size: 1rem;
+  }
+  .detail-showcase-desc > .name {
+    font-size: 1rem;
+  }
+  .detail-showcase-desc > .detail-more-info {
+    height: 25px;
+    width: 25px;
+  }
+  .detail-about {
+    font: normal normal normal 32px/96px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #cdb071;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .detail-img {
+    text-align: center;
+  }
+  .detail-img > img {
+    width: 100%;
+  }
+}

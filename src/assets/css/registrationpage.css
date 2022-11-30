@@ -1,0 +1,97 @@
+.registration-container {
+  background: linear-gradient(270deg, #000000 0%, #0000005c 100%),
+    url('../img/partner-bot.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 55vh;
+}
+.register-header-image {
+  position: absolute;
+  width: 204px;
+  height: 158px;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.regpage .bottom .form .head {
+  font-size: 24px;
+}
+.regpage .bottom .events .event-info .text {
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
+.register-about-desc {
+  background-color: #fff;
+  width: 100%;
+}
+.register-about-detail-conatiner {
+  width: 60%;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+.register-about-desc ul {
+  padding-inline-start: 17px;
+  font: normal normal normal 20px/32px Libre Caslon Display;
+}
+.register-about-desc li {
+  margin-top: 1.5rem;
+}
+.register-about-desc-heading {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.register-about-desc-desc {
+  margin: 3rem 0;
+  font: normal normal normal 18px/28px Libre Caslon Display;
+}
+
+.register-about-heading {
+  font: normal normal normal 52px/60px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 47px;
+}
+.register-about-subheading {
+  text-align: center;
+  font: normal normal normal 24px/38px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #acacac;
+  width: 30%;
+  margin: 27.5px auto 45.5px;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .about .video .thumb {
+    width: 95%;
+    
+  }
+  /* .thumb img {
+    height: 431px; 
+  } */
+  .regpage .bottom .form .head {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+  }
+  .regpage .bottom .events .event-info .text {
+    text-transform: capitalize;
+  }
+  .register-about-subheading {
+    width: 95%;
+  }
+  .about .video .thumb .play {
+    width: auto;
+  }
+  .thumb .play img {
+    height: 75px;
+    width: 75px;
+  }
+  .register-about-detail-conatiner {
+    width: 95%;
+  }
+}

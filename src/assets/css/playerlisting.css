@@ -1,0 +1,594 @@
+.player-listing {
+  position: relative;
+  background-color: BLACK;
+}
+.profile-arrow {
+  height: 11px;
+  width: 8px;
+  margin-left: 12px;
+}
+
+.nav-links {
+  position: fixed;
+  background: #00334e;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  padding-top: 2rem;
+  margin-top: -2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  clip-path: circle(0px at 91% 10%);
+  transition: all 1s ease-in-out;
+}
+.nav-links.open {
+  clip-path: circle(2200px at 90% 10%);
+}
+.menu-links {
+  font: normal normal normal 52px/60px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .menu-links {
+    font-size: 28px;
+  }
+}
+
+.listing-bg-1 {
+  /* background: rgb(0, 51, 78);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 51, 78, 1) 0%,
+    rgba(0, 51, 78, 1) 30.3%,
+    rgba(255, 255, 255, 1) 30.3%
+  ); */
+  background-color: black;
+  opacity: 1;
+}
+
+.listing-logo {
+  left: 90.17px;
+  top: 44px;
+  width: 105px;
+  height: 29.5px;
+  z-index: 12;
+}
+
+.listing-logo > img {
+  height: 100%;
+  width: 100%;
+}
+.listing-menu-conatiner {
+  width: 100%;
+}
+
+.navbar {
+  width: 90%;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.listing-menu {
+  right: 63px;
+  top: 32px;
+  width: 46px;
+  height: 24px;
+  text-align: left;
+  font: normal normal 600 20px/24px Cormorant Garamond;
+  letter-spacing: 0px;
+  color: #cdb071;
+  opacity: 1;
+  font-weight: 400;
+  z-index: 12;
+}
+
+.listing-heading-container {
+  width: 90%;
+  margin: 1rem auto 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.listing-heading-1 {
+  width: 418px;
+  height: 180px;
+  text-align: left;
+  font: normal normal normal 48px/60px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.listing-heading-2 {
+  right: 63px;
+  top: 176.5px;
+  width: 390px;
+  max-height: 85px;
+  text-align: right;
+  overflow-y: hidden;
+  font: normal normal normal 14px/20px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  opacity: 1;
+}
+
+.announcer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem 0 1rem;
+}
+
+.listing-announcer {
+  left: 956px;
+  top: 257px;
+  width: 92;
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 16px/19px Italiana;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  font-family: 100;
+}
+
+.listing-timer {
+  left: 946px;
+  top: 276px;
+}
+
+.listing-timer > span {
+  margin-right: 10px;
+  text-align: left;
+  font: normal normal normal 20px/24px Italiana;
+  letter-spacing: 0px;
+  color: #cdb071;
+  opacity: 1;
+}
+
+.listing-book-button {
+  right: 63px;
+  top: 261px;
+
+  width: 198px;
+  height: 34px;
+  border: 1px solid #cdb071;
+  border-radius: 0px 10px;
+  cursor: pointer;
+  outline: none;
+  opacity: 1;
+  font: normal normal normal 13px/15px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+  background-color: inherit;
+}
+.listing-book-button.disabled {
+  cursor: default;
+  border: 1px solid #94876b;
+  color: #adadad;
+}
+/* .color-div {
+  position: absolute;
+  top: 263px;
+  z-index: 0;
+  background-color: #00334e;
+  width: 100%;
+  height: 0px;
+} */
+
+.listing-scroll-left {
+  left: 5%;
+  top: 605px;
+  height: 38px;
+  width: 38px;
+  /* background: #ffffff00 0% 0% no-repeat padding-box; */
+  border: 1px solid #cdb071;
+  opacity: 1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(180deg);
+  position: absolute;
+}
+
+.listing-scroll-left > img {
+  height: 40%;
+  width: 40%;
+}
+.listing-scroll-right {
+  left: 95%;
+  top: 605px;
+  height: 38px;
+  width: 38px;
+  /* background: #ffffff00 0% 0% no-repeat padding-box; */
+  border: 1px solid #cdb071;
+  opacity: 1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  position: absolute;
+}
+
+.listing-scroll-right > img {
+  height: 40%;
+  width: 40%;
+}
+
+.listing-slider-wrapper {
+  display: flex;
+  left: 147px;
+  height: 699px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  align-items: flex-start;
+  margin-left: 10%;
+  margin-right: 0;
+}
+
+.listing-box {
+  display: inline-block;
+  height: 100%;
+  width: 329px;
+  margin-right: 40px;
+}
+.listing-scroll-left:active,
+.listing-scroll-left:focus {
+  outline: none;
+}
+.listing-scroll-right:active,
+.listing-scroll-right:focus {
+  outline: none;
+}
+
+.user-image {
+  width: 329px;
+  height: 475px;
+}
+
+.listing-user-name {
+  width: 100%;
+  text-align: center;
+  margin-top: 24px;
+  font: normal normal normal 18px/33px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: white;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.listing-user-link {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font: normal normal normal 16px/14px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.listing-nominations {
+  /* background: #00334e 0% 0% no-repeat padding-box; */
+  opacity: 1;
+  padding: 4rem 0;
+  margin-bottom: 8%;
+}
+.awards {
+  background-color: #00334e !important;
+}
+
+.listing-nominations > .heading {
+  text-align: center;
+  font: normal normal normal 52px/60px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.listing-nominations > .awards {
+  border-bottom: 1px solid #cdb071;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 80%;
+  margin: 5rem auto 2rem;
+  background-color: #00334e !important;
+}
+
+.listing-nominations > .awards > .number {
+  text-align: left;
+  font: normal normal normal 54px/62px Italiana;
+  letter-spacing: 0px;
+  color: #cdb071;
+  opacity: 1;
+  height: 100%;
+  background-color: #00334e;
+  flex: 0.2;
+}
+
+.listing-nominations > .awards > .award-name {
+  text-align: left;
+  font: normal normal normal 33px/38px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  opacity: 1;
+  background-color: #00334e;
+  flex: 0.8;
+}
+
+.listing-nominations > .awards > .award-desc {
+  font: normal normal normal 14px/20px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  opacity: 1;
+  overflow: hidden;
+-webkit-overflow-scrolling: hidden;
+  background-color: #00334e;
+  flex: 0.8;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.more-info-img {
+  border-radius: 50%;
+  background: #00334e;
+  border: 1px solid #cdb071;
+  opacity: 1;
+  height: 30px;
+  width: 30px;
+}
+
+.more-info-img img {
+  width: 60%;
+}
+
+.more-info-img:active,
+.more-info-img:focus {
+  outline: none;
+}
+
+.listing-footer {
+  height: 230px;
+}
+
+@media only screen and (max-width: 500px) {
+  .listing-heading-container {
+    justify-content: center;
+  }
+  .listing-heading-1 {
+    text-align: center !important;
+  }
+  .listing-nominations {
+    margin-bottom: 0;
+  }
+  .navbar {
+    margin: 1rem auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .player-listing {
+    width: 100%;
+  }
+  .listing-menu-conatiner {
+    /* margin: 1rem auto; */
+    padding: 1rem auto;
+  }
+
+  .announcer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .listing-bg-1 {
+    width: 100%;
+  }
+  .listing-logo {
+    top: 14px;
+    left: 24px;
+    width: 52px;
+    height: 14px;
+    opacity: 1;
+  }
+  .listing-menu {
+    top: 13px;
+    left: 305px;
+    width: 39px;
+    height: 18px;
+    text-align: left;
+    font: normal normal normal 14px/18px Libre Caslon Text;
+    letter-spacing: 0px;
+    color: #cdb071;
+    opacity: 1;
+  }
+
+  .listing-heading-1 {
+    width: 208px;
+    height: fit-content;
+    margin-bottom: 35px;
+    text-align: left;
+    font: normal normal normal 24px/34px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #cdb071;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+  .listing-heading-2 {
+    width: 328px;
+    text-align: center;
+    font: normal normal normal 14px/20px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #cdb071;
+    opacity: 1;
+  }
+  .listing-announcer {
+    text-align: center;
+    font: normal normal normal 14px/19px Italiana;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  .listing-book-button {
+    width: 198px;
+    height: 34px;
+    border: 1px solid #cdb071;
+    border-radius: 0px 10px;
+    opacity: 1;
+    margin-top: 1.5rem;
+  }
+
+  .listing-slider-wrapper {
+    display: flex;
+    height: 412px;
+    width: 90%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-right: 0;
+  }
+  .listing-box {
+    height: 385px;
+    width: 226px;
+    min-height: 385px;
+    min-width: 226px;
+  }
+  .listing-box > img {
+    height: 326px;
+    width: 100%;
+  }
+  /* .listing-scroll-left,
+  .listing-scroll-right {
+    display: none !important;
+  } */
+  .iphone-left,
+  .iphone-right {
+    position: absolute !important;
+    top: 560px !important;
+    height: 30px !important;
+    width: 30px !important;
+  }
+  .iphone-left{
+    left: 2% !important;
+  }
+  .iphone-right{
+    left: auto !important;
+    right: 2% !important;
+  }
+  .listing-user-name {
+    margin-top: 16px;
+    width: 100% !important;
+    height: auto;
+    text-align: center;
+    font: normal normal normal 12px/22px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #010b1d;
+    text-transform: capitalize;
+    opacity: 1;
+    margin: 0 !important;
+  }
+  .listing-user-link {
+    margin-top: 14px;
+    width: 45px;
+    height: 14px;
+    text-align: left;
+    font: normal normal normal 11px/10px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #cdb071;
+    text-transform: capitalize;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .listing-nominations {
+    background: #00334e;
+    opacity: 1;
+  }
+
+  .listing-nominations > .heading {
+    top: 23px;
+    left: 69px;
+    text-align: center;
+    font: normal normal normal 32px/60px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #cdb071;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+  .listing-nominations > .awards {
+    left: 16px;
+    width: 328px;
+    height: 35px;
+    top: 121px;
+    background-color: #00334e !important;
+  }
+  .listing-nominations > .awards > .number {
+    text-align: left;
+    font: normal normal normal 16px/35px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #cdb071;
+    opacity: 1;
+    bottom: 14px;
+    top: 0px;
+  }
+
+  .listing-nominations > .awards > .award-name {
+    text-align: left;
+    font: normal normal normal 18px/18px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #cdb071;
+    opacity: 1;
+    left: 65px;
+    top: 8px;
+  }
+  .more-info-img {
+    transform: rotate(0deg);
+    background: #00334e;
+    border: 1px solid #cdb071;
+    opacity: 1;
+  }
+  .listing-nominations > .awards > .award-desc {
+    display: none;
+  }
+  .listing-footer {
+    height: 584px;
+    top: 1600px;
+    width: 100%;
+  }
+}
+
+.player-background{
+  background-image: url("../img/player/blur_back.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  height: 368px;
+  width: 100%;
+  top: 375px;
+  left: 0;
+}
+@media only screen and (max-width: 768px) {
+  .player-background {
+    height: 268px;
+    top: 260px;
+    left: 0;
+  }
+}

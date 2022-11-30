@@ -1,0 +1,120 @@
+.slider-container {
+  position: relative;
+  background-color: #00000093;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 100;
+}
+.slider-container .nextBtn, .slider-container .prevBtn {
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  transform: translate(0, -50%);
+  width: 40px;
+  height: 40px;
+}
+@media screen and (max-width: 769px) {
+  .slider-container .nextBtn, .slider-container .prevBtn {
+    width: 25px;
+    height: 25px;
+  }
+}
+.slider-container .prevBtn {
+  transform: rotate(180deg);
+  left: 20px;
+}
+.slider-container .prevBtn img {
+  width: 100%;
+}
+.slider-container .nextBtn {
+  right: 20px;
+}
+.slider-container .nextBtn img {
+  width: 100%;
+}
+.slider-container .galleryItem {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.slider-container .galleryItem img {
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 769px) {
+  .slider-container .galleryItem img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+}
+.slider-container .bottomSlider {
+  display: flex;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: auto;
+  overflow-y: hidden;
+  box-sizing: border-box;
+  padding: 0 50px;
+}
+@media screen and (max-width: 769px) {
+  .slider-container .bottomSlider {
+    min-width: 50px;
+    padding: 0 20px;
+    justify-content: space-between;
+  }
+}
+.slider-container .bottomSlider .bottomSliderItem {
+  cursor: pointer;
+  width: 70px;
+  height: 65px;
+  margin: 20px 5px;
+}
+.slider-container .bottomSlider .bottomSliderItem img {
+  width: 100%;
+}
+@media screen and (max-width: 769px) {
+  .slider-container .bottomSlider .bottomSliderItem {
+    min-width: 60px;
+    min-height: 55px;
+  }
+}
+.slider-container .close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.alice-carousel {
+  height: 80%;
+}
+.alice-carousel div {
+  height: 100%;
+}
+.alice-carousel ul {
+  height: 100%;
+}
+.alice-carousel li {
+  height: 98%;
+}
+.alice-carousel img {
+  height: 100%;
+}
+
+.caption {
+  color: black;
+  background-color: antiquewhite;
+  padding: 2px 20px 5px 20px;
+}/*# sourceMappingURL=galleryPopUp.css.map */

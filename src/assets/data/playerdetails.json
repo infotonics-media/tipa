@@ -1,0 +1,37 @@
+{
+    "Player": {
+        "name": "Pablo Carlos"
+    },
+    "about": [
+        {
+            "id": "01",
+            "short": "TIPA emerged from a vision to redefine the experience of Polo by hosting an iconic award show, an occasion inviting the most illustrious names associated with the game, The Indian Polo Award prepares to pay a cumulative regard to a heritage sprawling well over 2000 years in a grand procession. It simultaneously seeks to award an uncompromising spirit behind the sport by extending recognition to people who have been unflinchingly contributing to the glory of polo. Under the aegis of LA POLO, TIPA has arrived to foster new milestones for Indian Polo by creating a truly scintillating celebration."
+        }
+    ],
+    "stories": [
+        {
+            "id" : "01",
+            "date": "APRIL 15 ,2020 SPORTS",
+            "title": "STANDING OUT BY SIMPLY SAYING LESS"
+        },
+        {
+            "id" : "01",
+            "date": "APRIL 15 ,2020 SPORTS",
+            "title": "STANDING OUT BY SIMPLY SAYING LESS"
+        },
+        {
+            "id" : "01",
+            "date": "APRIL 15 ,2020 SPORTS",
+            "title": "STANDING OUT BY SIMPLY SAYING LESS"
+        }
+    ],
+    "showcase": [
+        {
+            "id": "01",
+            "year": "2020",
+            "title": "The Most Valuable Player",
+            "desc": "TIPA emerged from a vision to redefine the experience of Polo by hosting an iconic award show, an occasion inviting the most illustrious names associated with the game, The Indian Polo Award prepares to pay a cumulative regard to a heritage sprawling well over 2000 years in a grand procession. It simultaneously seeks to award an uncompromising spirit behind the sport by extending recognition to people who have been unflinchingly contributing to the glory of polo. Under the aegis of LA POLO, TIPA has arrived to foster new milestones for Indian Polo by creating a truly scintillating celebration"
+        }
+    ]
+    
+}

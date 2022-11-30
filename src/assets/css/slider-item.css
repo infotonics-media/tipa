@@ -1,0 +1,49 @@
+.slider-item {
+  box-sizing: border-box;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  border-bottom: 1px solid #cdb07167;
+  height: calc(100vh / 3);
+  color: #cdb071;
+}
+.title {
+  grid-column: 1/5;
+  justify-items: center;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+.desc {
+  grid-column: 6/12;
+}
+.readmore {
+  grid-column: 11/13;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-blog-page-km {
+  font-size: 0.6rem;
+  transform: rotate(90deg);
+}
+.arw {
+  width: 2rem;
+}
+
+
+
+@media screen and (max-width: 550px){
+  .nomination .categories .nomdata .description{
+    display: none;
+    height: 0;
+  }
+  .slider-item .desc{
+    display: none;
+    height: 0;
+    visibility: hidden;
+  }
+  .slider-item .title {
+    grid-column: 1/12;
+  }
+}

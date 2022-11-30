@@ -1,0 +1,148 @@
+.videoBanner {
+  width: 100%;
+  margin-top: -150px;
+  padding-top: 150px;
+  height: 95vh;
+  background-image: url("../img/videos/video_banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.main-section {
+  position: absolute;
+  bottom: 80px;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.center img {
+  width: 100%;
+}
+.center .presents {
+  margin: 13px 0;
+  width: 20%;
+}
+.center .logo-main {
+  margin: 13px 0;
+
+  width: 50%;
+}
+.center .partner-logo {
+  margin: 13px 0;
+  width: 20%;
+}
+.youtube-btn {
+  width: 3rem;
+  margin: 25px 0;
+  cursor: pointer;
+}
+.youtube-btn img {
+  width: 100%;
+}
+.is_live {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  font-size: 13px;
+  line-height: 12px;
+}
+
+.time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Italiana", serif;
+}
+
+.time .starting {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  /* color: #ffffff; */
+}
+
+.time .clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.time .clock .days,
+.time .clock .min,
+.time .clock .hours,
+.time .clock .sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0.5rem;
+  font-weight: bold;
+  color: #cdb071;
+}
+
+.clk {
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 769px) {
+  .center .logo-main {
+    width: 80%;
+  }
+  .center .partner-logo {
+    width: 40%;
+  }
+  .center .presents {
+    width: 40%;
+  }
+  .time .starting {
+    font-size: 16px;
+  }
+  .time .clock {
+    font-weight: normal;
+    font-size: 14px;
+  }
+  .time .clock .days,
+  .time .clock .min,
+  .time .clock .hours,
+  .time .clock .sec {
+    margin: 0.2rem;
+  }
+}
+.main-section .btn {
+  margin-top: 40px;
+  border: 2px solid white;
+  font-size: 16px;
+  color: white;
+  padding: 0.5rem 3rem;
+  border-radius: 0 10px;
+  cursor: pointer;
+}
+
+.clickable {
+  cursor: pointer;
+}

@@ -1,0 +1,368 @@
+.event-wrapper{
+    position: relative;
+    width: 1366px;
+    height: 6266px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    overflow: hidden;
+-webkit-overflow-scrolling: hidden;
+}
+
+.event-bg1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 768px;
+    background-image: url("../img/event-bg.png");
+}
+
+
+.event-logo{
+    top: 44px;
+    left: 90.17px;
+    position: absolute;
+    width: 105px;
+    height: 29.5px;
+}
+
+.event-menu{
+    position: absolute;
+    top: 32px;
+    right: 63px;
+    width: 46px;
+    height: 24px;
+    text-align: left;
+    font: normal normal 600 20px/24px Cormorant Garamond;
+    letter-spacing: 0px;
+    color: #CDB071;
+    opacity: 1;
+    font-weight: 100;
+}
+
+.event-watch-button{
+    position: absolute;
+    top: 553px;
+    left: 585px;
+    width: 198px;
+    height: 34px;
+    background: none;
+    background-color: white;
+    border: 3px solid #FFFFFF;
+    border-radius: 0px 10px;
+    opacity: 1;
+    color: black;
+    font: normal normal normal 16px/15px Libre Caslon Display;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.event-watch-button:active, .event-watch-button:focus{
+    outline:none
+}
+
+.event-videos{
+    position: absolute;
+    top: 766px;
+    left: 0px;
+    width: 100%;
+}
+
+
+.event-nav1{
+    position: absolute;
+    width: 100%;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 1668px;
+    background-color: #F5F5F5;
+    text-align: left;
+    font: normal normal normal 16px/20px Libre Caslon Display;
+    letter-spacing: 1.6px;
+    color: #CDB071;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+
+.event-interview{
+    position: absolute;
+    top: 1828px;
+    left: 90px;
+}
+
+.event-interview-heading{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font: normal normal normal 48px/60px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #CDB071;
+    text-transform: uppercase;
+    opacity: 1;
+    width: 554px;
+    height: 60px;
+}
+
+
+.event-interview-desc{
+    margin-top: 92px;
+    width: 708px;
+    height: 84px;
+    text-align: left;
+    font: normal normal normal 16px/26px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.videogrid{
+    top: 231px;
+    position: absolute;
+}
+
+.videogrid>.grid1{
+    width: 671px;
+    position: absolute;
+    height: 269px;
+}
+
+.grid-backdrop{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    backdrop-filter: brightness(60%);
+}
+
+.grid-img{
+    height: 100%;
+    width: 100%;
+}
+
+.grid-text{
+    top: 16px;
+    left: 16px;
+    position: absolute;
+    height: 57px;
+    width: 119px;
+    text-align: left;
+    font: normal normal normal 24px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+    font-weight: 200;
+}
+.grid1{
+    position: absolute;
+    margin-left: 0px;
+    top: 0px;
+    width: 671px;
+    height: 269px;
+}
+.grid2{
+    position: absolute;
+    margin-left: 683px;
+    top: 0px;
+    width: 503px;
+    height: 269px;
+}
+
+.grid3{
+    position: absolute;
+    top: 284px;
+    left: 0px;
+    width: 229px;
+    height: 269px;
+}
+
+.grid4{
+    position: absolute;
+    top: 284px;
+    left: 242px;
+    width: 400px;
+    height: 269px;
+}
+
+.grid5{
+    position: absolute;
+    top: 284px;
+    left: 655px;
+    width: 292px;
+    height: 269px;
+}
+
+.grid6{
+    position: absolute;
+    top: 284px;
+    left: 957px;
+    width: 229px;
+    height: 269px;
+}
+
+.grid-play{
+    position: absolute;
+    height: 51px;
+    width: 51px;
+    right: 16px;
+    bottom: 16px;
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.event-award{
+    position: absolute;
+    top: 2693px;
+    left: 90px;
+}
+
+.event-award-heading{
+    position: absolute;
+    width: 467px;
+    height: 60px;
+    text-align: left;
+    font: normal normal normal 48px/60px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #CDB071;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.event-award-desc{
+    position: absolute;
+    top: 92px;
+    width: 708px;
+    height: 84px;
+    text-align: left;
+    font: normal normal normal 16px/26px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+
+.event-ceremonies{
+    position: absolute;
+    top: 3558px;
+    left: 90px
+}
+
+.event-ceremonies-heading{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    font: normal normal normal 48px/60px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #CDB071;
+    text-transform: uppercase;
+    opacity: 1;
+    height: 60px;
+    width: 304px;
+}
+
+.event-ceremonies-desc{
+    position: absolute;
+    top: 92px;
+    width: 708px;
+    text-align: left;
+    font: normal normal normal 16px/26px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+
+.event-trophy{
+    position: absolute;
+    top: 4423px;
+    left: 90px;
+}
+
+.event-trophy-heading{
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    font: normal normal normal 47px/60px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #CDB071;
+    text-transform: uppercase;
+    opacity: 1;
+    width: 348px;
+}
+
+.event-trophy-desc{
+    position: absolute;
+    top: 92px;
+    width: 708px;
+    height: 84px;
+}
+
+
+.event-related-heading{
+    position: absolute;
+    top: 5341px;
+    left: 605px;
+    height: 24px;
+    text-align: center;
+    font: normal normal normal 20px/67px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #CDB071;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.event-related-posts{
+    position: absolute;
+    top: 5437px;
+    left: 134px;
+    width: 1094px;
+    height: 431px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-post-box{
+    height: 100%;
+    width: 297px;
+}
+
+.event-post-box>.year{
+    position: absolute;
+    top: 305px;
+    text-align: center;
+    font: normal normal normal 12px/20px Libre Caslon Display;
+    letter-spacing: 2.4px;
+    color: #928F8F;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.event-post-box>.title{
+    position: absolute;
+    top: 343px;
+    height: 88px;
+    text-align: left;
+    font: normal normal normal 24px/28px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #CDB071;
+    text-transform: uppercase;
+    opacity: 1;
+    width: 297px;
+}
+
+.event-footer{
+    position: absolute;
+    top: 6008px;
+    width: 100%;
+}
