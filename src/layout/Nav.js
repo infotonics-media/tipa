@@ -57,11 +57,19 @@ const Nav = () => {
               </li>
             </a>
 
-            <a href="/gallery">
+            <a href="/gallery2022">
               <li className="menu-links">
                 <p className="textlign" style={{ margin: 0 }}>Gallery</p>
               </li>
             </a>
+
+            <a href="/gallery2021">
+              <li className="menu-links">
+                <p className="textlign" style={{ margin: 0 }}>Gallery 2021</p>
+              </li>
+            </a>
+
+            
             <a href="/parnterList">
               <li className="menu-links">
                 <p className="textlign" style={{ margin: 0 }}>Partners</p>

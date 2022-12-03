@@ -22,6 +22,10 @@ import PartnerContent from "./layout/PartnerContent";
 import PrivacyPolicy from "./layout/PrivacyPolicy";
 import Error from "./components/Error";
 import GalleryPage from "./layout/GalleryPage";
+import GalleryPage2021 from "./layout/GalleryPage2021";
+import GalleryPage2022 from "./layout/GalleryPage2022";
+
+
 import PressRelease from "./layout/PressRelease";
 import WinnerLayout from "./layout/WinnerLayout";
 import TetstimonialsLayout from "./layout/TetstimonialsLayout";
@@ -104,6 +108,13 @@ const Routes = () => {
       <Route exact path="/gallery">
         <GalleryPage />
       </Route>
+      <Route exact path="/gallery2021">
+        <GalleryPage2021 />
+      </Route>
+      <Route exact path="/gallery2022">
+        <GalleryPage2022 />
+      </Route>
+      
       <Route exact path="/press-release">
         <PressRelease />
       </Route>

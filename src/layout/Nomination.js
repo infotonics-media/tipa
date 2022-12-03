@@ -2,7 +2,7 @@ import Axios from 'axios';
 import React, { useState, useEffect } from 'react';
 import NomData from '../components/NomData';
 
-const ENDPOINT = 'https://backend.theindianpoloawards.com/nominations/';
+const ENDPOINT = 'https://backend.theindianpoloawards.com/nominations/category-2022';
 
 // TIPA emerged from a vision to redefine the experience of Polo by hosting an iconic award show, an occasion inviting the most illustrious names associated with the game, The Indian Polo Award prepares to pay a cumulative regard to a heritage sprawling
 const Nomination = (props) => {

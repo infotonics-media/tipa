@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import GalleryPopUp from "../components/GalleryPopUp";
 import "../assets/css/galleryPage.css";
-import Nav from "../layout/Nav";
+import Nav from "./Nav";
 import axios from "axios";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import InMotion from "./InMotion";
@@ -31,7 +31,7 @@ const RelatedBlogs = (props) => {
 };
 
 // http://backend.theindianpoloawards.com/gallery/ https://backend.theindianpoloawards.com/gallery/gallery-2022
-const GalleryPage = () => {
+const GalleryPage2022 = () => {
   const blogs = useSelector((state) => state.FetchApi.BlogPost);
   const grid_sec = useRef(null);
   const [data, setData] = useState({
@@ -43,7 +43,7 @@ const GalleryPage = () => {
   const [displayPopUp, setDisplayPopUp] = useState(false);
   useEffect(() => {
     axios
-      .get(ENDPOINT + "gallery/")
+      .get(ENDPOINT + "gallery/gallery-2022")
       .then((res) => {
         setData({
           ...data,
@@ -192,4 +192,4 @@ const GalleryPage = () => {
   );
 };
 
-export default GalleryPage;
+export default GalleryPage2022;

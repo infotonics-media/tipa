@@ -9,7 +9,7 @@ function PartnerCards({item}) {
        
       </div>
       <div className={style.content}>
-          <h4>New Delhi</h4>
+          <h4>{item.location}</h4>
           <h2>{item.title}</h2>
           <hr/>
           <h4>{item.mediahouse_name}</h4>
