@@ -1,12 +1,13 @@
 import Axios from 'axios';
 import React, { useState, useEffect } from 'react';
 import NomData from '../components/NomData';
-
 const ENDPOINT = 'https://backend.theindianpoloawards.com/nominations/category-2022';
 const ENDPOINTz = 'https://backend.theindianpoloawards.com/nominations/category-2021';
 
 // TIPA emerged from a vision to redefine the experience of Polo by hosting an iconic award show, an occasion inviting the most illustrious names associated with the game, The Indian Polo Award prepares to pay a cumulative regard to a heritage sprawling
 const Nomination = (props) => {
+
+  
   const [categories, setcategories] = useState([]);
   useEffect(() => {
     Axios.get(ENDPOINT)
@@ -90,11 +91,10 @@ const Nomination = (props) => {
         
         </div>
       </div>
-      
-
-
-
-
+   
+    {props.year?
+      (<></>):(
+      <>
       <div className="year">2021</div>
       <div className="header">{props.title}</div>
       <div className="categories">{catItemz.slice(0, catlenz)}</div>
@@ -113,9 +113,7 @@ const Nomination = (props) => {
           />
         
         </div>
-      </div>
-
-
+      </div></>)}
 
 
 
