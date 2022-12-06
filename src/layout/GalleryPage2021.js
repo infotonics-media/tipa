@@ -31,7 +31,7 @@ const RelatedBlogs = (props) => {
 };
 
 // http://backend.theindianpoloawards.com/gallery/ https://backend.theindianpoloawards.com/gallery/gallery-2022
-const GalleryPage2021 = () => {
+const GalleryPage2022 = () => {
   const blogs = useSelector((state) => state.FetchApi.BlogPost);
   const grid_sec = useRef(null);
   const [data, setData] = useState({
@@ -118,10 +118,21 @@ const GalleryPage2021 = () => {
         </div>
         <div className="gallery-content">
           <div className="details">
+            
+          
+            <div className="heading">
+              <Link to="/gallery2022">Gallery 2022</Link>
+              {'\u00A0'} {'\u00A0'}
+              <Link to="/gallery2021" style={{textDecoration: "underline"}}>Gallery 2021</Link>
+            </div>
+         
+          
+          <Link to="/gallery2021">
             <div className="heading">Gallery</div>
+          </Link>
+          
             <div className="desc">
             Champions through and through hit the Blue Carpet at Polo’s grandest night!
-
             </div>
           </div>
           <div ref={grid_sec} className="grid-section">
@@ -192,4 +203,4 @@ const GalleryPage2021 = () => {
   );
 };
 
-export default GalleryPage2021;
+export default GalleryPage2022;
