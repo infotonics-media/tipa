@@ -169,7 +169,7 @@ const PlayerListing = () => {
                         marginTop: "5px",
                       }}
                     >
-                      winner 2021
+                      winner {item.winningYear}
                     </div>
                   )
                 ) : (
