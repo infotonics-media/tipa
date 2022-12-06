@@ -105,8 +105,14 @@ const Routes = () => {
       <Route exact path="/page-not-found">
         <Error />
       </Route>
-      <Route exact path="/gallery2022">
+      <Route exact path="/gallery">
         <GalleryPage />
+      </Route>
+      <Route exact path="/gallery2021">
+        <GalleryPage2021 />
+      </Route>
+      <Route exact path="/gallery2022">
+        <GalleryPage2022 />
       </Route>
       
       <Route exact path="/press-release">
