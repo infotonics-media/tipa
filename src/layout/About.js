@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import ModalVideo from "react-modal-video";
 import { Redirect } from "react-router-dom";
 import "../assets/css/About.css";
@@ -23,7 +23,7 @@ const About = () => {
   }, []);
   // console.log('About', about);
   if (err) {
-    return <></>;
+    return <Fragment></Fragment>;
   } else {
     return (
       <div id="about" className="about">
@@ -38,18 +38,19 @@ const About = () => {
         {/* <div className="backgrnd"></div> */}
         <div className="aboutTitle">
 
-        <h2>About Us</h2>
+          <h2>Coming Soon</h2>
         </div>
         <div className="video">
-         
+
           <div className="thumb">
-            {/* <img src={require('../assets/img/t_about_us.jpg')} alt="" /> */}
-            
-            <img
+
+
+            {/*  <img
               src={Image2}
               alt="{about.title}"
+              style={{width:"50%"}}
             />
-            {/* <div onClick={() => setOpen(true)} className="play">
+             <div onClick={() => setOpen(true)} className="play">
               <img src={require("../assets/img/play.png")} alt="" />
             </div> */}
           </div>
@@ -67,7 +68,7 @@ const About = () => {
               <div onClick={() => setOpen(true)}>
                 <img src={Playbutton} alt="playbutton" />
               </div>
-              <div className="starting">Watch 2021 Highlights</div>
+              <div className="starting">Watch 2022 Highlights</div>
             </div>
           </div>
           <div className="desc">

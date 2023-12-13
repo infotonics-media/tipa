@@ -6,13 +6,15 @@ import style from "../assets/css/partnerCards.module.css";
 import GallerySlider from "./GallerySlider";
 import BlogCardsRelated from "../components/BlogCardsRelated";
 import { useParams } from "react-router-dom";
-
+import Facebook from "../assets/img/svg/Icon awesome-facebook-f.svg"
+import Twitter from "../assets/img/svg/Icon awesome-twitter.svg"
+import Instagram from "../assets/img/svg/insta.svg"
 function PartnerDetails() {
   const [details, setDetails] = useState({});
   const params = useParams()
   useEffect(() => {
     Axios.get(
-        `https://backend.theindianpoloawards.com/partners/all-partners/${params.slug}/`
+      `https://backend.theindianpoloawards.com/partners/all-partners/${params.slug}/`
     )
       .then((response) => {
         setDetails(response.data);
@@ -33,15 +35,15 @@ function PartnerDetails() {
           title={details.title}
         />
       </div>
-      <img src={details.coverImage} alt={details.title} title={details.title} style={{width: '400px'}}/>
+      <img src={details.coverImage} alt={details.title} title={details.title} style={{ width: '100px' }} />
       <div className="social-blog">
-        <a 
+        <a
           href={details.social_links_fb}
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            src={require("../assets/img/svg/Icon awesome-facebook-f.svg")}
+            src={Facebook}
             alt="facebook"
             height="20px"
             width="15px"
@@ -53,7 +55,7 @@ function PartnerDetails() {
           rel="noopener noreferrer"
         >
           <img
-            src={require("../assets/img/svg/Icon awesome-twitter.svg")}
+            src={Twitter}
             height="20px"
             width="15px"
             alt="twitter"
@@ -65,7 +67,7 @@ function PartnerDetails() {
           rel="noopener noreferrer"
         >
           <img
-            src={require("../assets/img/svg/insta.svg")}
+            src={Instagram}
             alt="external"
             height="20px"
             width="15px"
@@ -74,11 +76,11 @@ function PartnerDetails() {
       </div>
       <p>{details.desc}</p>
       {/* <h1>Brand Gallery</h1> */}
-      <br/>
-      <br/>
-      <GallerySlider/>
+      <br />
+      <br />
+      <GallerySlider />
       <div className={style.blog}>
-      <BlogCardsRelated/>
+        <BlogCardsRelated />
       </div>
       <Footer />
     </>

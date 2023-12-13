@@ -51,8 +51,9 @@ const Hero = () => {
                 alt="TIPAs"
               /> */}
               <img
-                src={require("../assets/img/tagline/tagline-logo.png")}
+                src={require("../assets/img/tagline/tagline1.png")}
                 alt="TIPA"
+                style={{width:"80%"}}
               />
             </div>
             {/* <div onClick={() => changeIndex(1)} className="rightarw">
@@ -69,10 +70,10 @@ const Hero = () => {
           </div>
           <div className="bnav">
             <div className="time">
-              <div onClick={() => setOpen(true)}>
+              {/* <div onClick={() => setOpen(true)}>
                 <img src={Playbutton} alt="playbutton"/>
-              </div>
-              <div className="starting">Watch 2021 Highlights</div>
+              </div> */}
+              {/* <div className="starting">Watch 2022 Highlights</div> */}
               {/* <div className="clock">
               <div className="days">
                 <div className="clk">{state.days}</div>
@@ -147,20 +148,19 @@ const Hero = () => {
         </div>
         {/* kabf chandah its my 23rd bday and I will be bathed with gobar today 3 2 1 foja chhdb hffhh fhahaifh hhffhb  fhihf chanandan fhhf cb chanda h chhf fhhb chandn  nnfrjf */}
       </div>
-      <div className="quote italiana">
+      <div className="quote ">
         <p className="quotepara">
-          "The Ball no question makes of Ayes and Noes, But Right or Left as
-          strikes the Player goes;
-          <br />
+          The rhythmic symphony of hooves and the clashing of mallets create an exquisite ballet on the lush canvas of the field, where the horse unites with the rider in a dance of skill and finesse. Each thunderous gallop and precisely struck ball tell a tale of passion and dedication, echoing the rich legacy of polo. Season 3
+          {/* <br />
           And He that toss'd Thee down into the Field,
           <br />
           He knows about it all - HE knows - HE knows!"
-          <br />
+          <br /> 
           <span
             style={{ fontSize: "18px", fontFamily: "Libre Caslon Display" }}
           >
             ~ Omar Khayyam
-          </span>
+          </span>*/}
         </p>
       </div>
     </>

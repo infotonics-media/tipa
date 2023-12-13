@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../assets/css/nav.css";
+import Facebook from "../assets/img/svg/Icon awesome-facebook-f.svg"
+import Twitter from "../assets/img/svg/Icon awesome-twitter.svg"
+import Instagram from "../assets/img/svg/insta.svg"
 const Nav = () => {
   const [classupdate, setClassupdate] = useState(false);
   useEffect(() => {
@@ -62,7 +65,7 @@ const Nav = () => {
                 <p className="textlign" style={{ margin: 0 }}>Gallery</p>
               </li>
             </a>
-            
+
             <a href="/parnterList">
               <li className="menu-links">
                 <p className="textlign" style={{ margin: 0 }}>Partners</p>
@@ -97,7 +100,7 @@ const Nav = () => {
               rel="noopener noreferrer"
             >
               <img
-                src={require("../assets/img/svg/Icon awesome-facebook-f.svg")}
+                src={Facebook}
                 alt="facebook"
                 height="20px"
                 width="15px"
@@ -109,7 +112,7 @@ const Nav = () => {
               rel="noopener noreferrer"
             >
               <img
-                src={require("../assets/img/svg/Icon awesome-twitter.svg")}
+                src={Twitter}
                 height="20px"
                 width="15px"
                 alt="twitter"
@@ -121,7 +124,7 @@ const Nav = () => {
               rel="noopener noreferrer"
             >
               <img
-                src={require("../assets/img/svg/insta.svg")}
+                src={Instagram}
                 alt="external"
                 height="20px"
                 width="15px"

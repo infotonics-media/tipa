@@ -30,7 +30,7 @@ const App = () => {
   useEffect(() => {
     axios.get('https://backend.theindianpoloawards.com/blog/')
       .then((response) => {
-         console.log(response.data.results);
+         
         dispatch(blogUpdate(response.data?.results))
       }).catch(err => {
         console.log("got an error")

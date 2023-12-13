@@ -4,8 +4,10 @@ import Footer from './Footer';
 import { Link, useParams } from 'react-router-dom';
 import Nav from './Nav';
 import axios from 'axios';
-import { useSelector } from 'react-redux'
 
+import Facebook from "../assets/img/svg/Icon awesome-facebook-f.svg"
+import Twitter from "../assets/img/svg/Icon awesome-twitter.svg"
+import Instagram from "../assets/img/svg/insta.svg"
 const RelatedBlog = (props) => {
   return (<div className="v-post">
     <Link to={'/blog/' + props.item.slug}>
@@ -57,7 +59,7 @@ const Blog = (props) => {
         <div className="social-blog">
           <a href="https://www.facebook.com/TheIndianPoloAwards/" target="_blank" rel="noopener noreferrer" >
             <img
-              src={require('../assets/img/svg/Icon awesome-facebook-f.svg')}
+              src={Facebook}
               alt="facebook"
               height="20px"
               width="15px"
@@ -66,7 +68,7 @@ const Blog = (props) => {
           <a href="https://twitter.com/IndianpoloAwrds" target="_blank" rel="noopener noreferrer">
 
             <img
-              src={require('../assets/img/svg/Icon awesome-twitter.svg')}
+              src={Facebook}
               height="20px"
               width="15px"
               alt="twitter"
@@ -74,7 +76,7 @@ const Blog = (props) => {
           </a>
           <a href="https://www.instagram.com/theindianpoloawards/" target="_blank" rel="noopener noreferrer" >
             <img
-              src={require('../assets/img/svg/insta.svg')}
+              src={Instagram}
               alt="external"
               height="20px"
               width="15px"
