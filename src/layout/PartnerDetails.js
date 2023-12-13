@@ -75,7 +75,11 @@ function PartnerDetails() {
         </a>
       </div>
       <p style={{margin: "1% 10% 1% 10%"}}>{details.desc}</p>
+<<<<<<< HEAD
       
+=======
+      {/* <h1>Brand Gallery</h1> */}
+>>>>>>> origin/master
       <br />
       <br />
       <GallerySlider />
