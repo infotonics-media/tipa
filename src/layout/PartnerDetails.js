@@ -74,7 +74,7 @@ function PartnerDetails() {
           />
         </a>
       </div>
-      <p>{details.desc}</p>
+      <p style={{margin: "1% 10% 1% 10%"}}>{details.desc}</p>
       {/* <h1>Brand Gallery</h1> */}
       <br />
       <br />
