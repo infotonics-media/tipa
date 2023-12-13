@@ -1,0 +1,82 @@
+@import "../css/_utility";
+.card {
+  width: 282px;
+  height: auto;
+  text-align: center;
+  background: transparent linear-gradient(2deg, #000000 0%, #121212 100%) 0% 0%
+    no-repeat padding-box;
+  border: 1px solid #ffffff33;
+  opacity: 1;
+  color: $gold;
+  margin: 22px 22px;
+  @media screen and(max-width:769px) {
+    width: 282px;
+    height: auto;
+  }
+}
+.contentSection {
+  width: 218px;
+  height: 133px;
+  margin: 0 auto;
+  hr {
+    border: 1px solid #ffffff1c;
+    opacity: 1;
+  }
+  h2 {
+    font: normal normal normal 14px/28px $libre;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    opacity: 1;
+    
+  }
+  p {
+    font: normal normal normal 14px/17px $libre;
+    letter-spacing: 0.56px;
+    text-transform: capitalize;
+    opacity: 1;
+    line-height:1.5;
+  }
+}
+.year {
+  margin-top: 3rem;
+  font-size: 3rem;
+  color: #cdb071;
+  font: normal normal normal 37px/43px "Italiana", serif;
+  letter-spacing: 0px;
+  opacity: 0.5;
+  text-align: center;
+}
+.title {
+  font: normal normal normal 64px/75px "Italiana", serif;
+  letter-spacing: 0px;
+  color: $highlight;
+  //opacity: 0.5;
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.cardsection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 75vw;
+  margin: 0 auto;
+}
+.hide{
+  display: none;
+}
+.showMOre {
+  margin: 0 auto;
+  text-align: center;
+
+  font-size: 1.2rem;
+  color: #cdb071;
+  text-transform: uppercase;
+}
+.btn {
+  padding: 0.5rem;
+  width: 3rem;
+  transform: rotate(90deg);
+  text-align: center;
+  margin: 0 auto;
+}

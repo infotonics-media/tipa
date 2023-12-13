@@ -1,0 +1,10 @@
+.privacy{
+    padding: 20px;
+    font: normal normal normal 20px/28px Libre Caslon Display;
+}
+p {
+   text-align: justify !important;
+}
+h3, h4 {
+    color: #fff;
+}

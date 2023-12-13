@@ -1,0 +1,43 @@
+@import "../css/_utility";
+
+.main {
+  background-color: $backgroundColor;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 20px;
+  @media screen and (max-width: 768px){
+   flex-direction: column;
+  }
+  img {
+    width: 300px;
+    height: auto;
+    @media screen and (max-width: 768px){
+      width: 100%
+    }
+  }
+  .date {
+    font: normal normal normal 20px/24px $italiana;
+    letter-spacing: 0px;
+    color: $gold;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  .header{
+    text-align: left;
+    font: normal normal normal 26px/40px Italiana;
+    letter-spacing: 0px;
+    color: #FFFFFFB3;
+    opacity: 1;
+    width:300px;
+  }
+}
+.title{
+  margin-top: 2rem;
+  letter-spacing: 0px;
+  color: $highlight;
+  text-transform: capitalize;
+  opacity: 1;
+  font: normal normal normal 64px/75px "Italiana", serif;
+  text-align: center;
+}

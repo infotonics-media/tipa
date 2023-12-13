@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap");
+.card {
+  width: 968px;
+  height: 385px;
+  background-color: #422f2f;
+  margin: 20px auto;
+  background-color: #000000;
+}
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+    height: auto;
+  }
+}
+.card .imgBorder {
+  background: #775c11 0% 0% no-repeat padding-box;
+  opacity: 0.48;
+  height: 100px;
+  left: -10px;
+  position: relative;
+  top: 296px;
+  width: 100px;
+  z-index: -1;
+}
+@media screen and (max-width: 768px) {
+  .card .imgBorder {
+    left: 230px;
+    position: relative;
+    top: 300px;
+    width: 100px;
+    z-index: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card .imgBorder {
+    left: 56px;
+    position: relative;
+    top: 300px;
+    width: 100px;
+    z-index: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .card .imgBorder {
+    left: 36px;
+    position: relative;
+    top: 299px;
+    width: 100px;
+    z-index: 0;
+  }
+}
+.card .content {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .card .content {
+    flex-direction: column;
+  }
+}
+.card .content img {
+  width: 278px;
+  height: 385px;
+  position: relative;
+  top: -100px;
+}
+@media screen and (max-width: 768px) {
+  .card .content img {
+    margin: 0 auto;
+  }
+}
+.card .content .data {
+  position: relative;
+  top: -100px;
+  padding-left: 40px;
+}
+@media screen and (max-width: 768px) {
+  .card .content .data {
+    padding: 30px;
+  }
+}
+.card .content .data h3 {
+  text-align: left;
+  font: normal normal normal 26px/40px Italiana;
+  letter-spacing: 0px;
+  color: #ffffff6e;
+  opacity: 1;
+}
+.card .content .data h4 {
+  text-align: left;
+  font: normal normal normal 16px/32px Libre Caslon Text;
+  letter-spacing: 0.16px;
+  color: #ffffffbd;
+  opacity: 1;
+}
+.card .content .data p {
+  text-align: left;
+  font: normal normal normal 14px/20px "Libre Caslon Text", serif;
+  letter-spacing: 0.56px;
+  color: #ebcd8b;
+  text-transform: capitalize;
+  opacity: 1;
+  line-height: 1.5;
+}
+.card .content .data .navigation {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .card .content .data .navigation {
+    flex-direction: column;
+  }
+}
+.card .content .data .navigation .buttons {
+  padding: 2rem 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  position: relative;
+  top: 10px;
+}
+.card .content .data .navigation .buttons .left {
+  transform: rotate(180deg);
+}
+.card .content .data .navigation .buttons div {
+  width: 2.5rem;
+}
+.card .content .data .navigation .buttons div img {
+  width: 46px;
+  height: auto;
+  position: relative;
+  top: 1px;
+}
+
+.slider {
+  position: relative;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font: normal normal normal 64px/75px "Italiana", serif;
+  letter-spacing: 0px;
+  color: #ebcd8b;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+  text-align: center;
+}/*# sourceMappingURL=tetstimonials.module.css.map */

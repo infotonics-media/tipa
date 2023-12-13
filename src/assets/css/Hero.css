@@ -1,0 +1,35 @@
+.container .heroMainTag .tagline {
+    min-width: 40%;
+    max-width: 40%;
+}
+
+@media screen and (max-width: 990px){
+    .container .heroMainTag .tagline {
+        min-width: 55%;
+        max-width: 55%;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .container .heroMainTag .tagline {
+        min-width: 50%;
+        max-width: 50%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+
+    }
+    .container .heroMainTag .leftarw{
+        display: block;
+        visibility: visible;
+        width: 9%;
+    }
+    .container .heroMainTag .rightarw{
+        display: block;
+        visibility: visible;
+        width: 9%;
+    }
+    .container .heroMainTag{
+        width: 100%;
+    }
+}

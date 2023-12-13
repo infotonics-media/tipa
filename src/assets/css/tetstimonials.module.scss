@@ -1,0 +1,148 @@
+@import "../css/_utility";
+.card {
+  width: 968px;
+  height: 385px;
+  background-color: #422f2f;
+  margin: 20px auto;
+  background-color: $backgroundColor;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: auto;
+  }
+  .imgBorder {
+    background: #775c11 0% 0% no-repeat padding-box;
+    opacity: 0.48;
+    //box-shadow: 0 0 3px 2px rgba(247, 17, 17, 0.8);
+    height: 100px;
+    left: -10px;
+    position: relative;
+    top: 296px;
+    width: 100px;
+    z-index: -1;
+    @media screen and (max-width: 768px){
+      left: 230px;
+      position: relative;
+      top: 300px;
+      width: 100px;
+      z-index: 0;
+    }
+     @media screen and (max-width: 500px){
+      left: 56px;
+      position: relative;
+      top: 300px;
+      width: 100px;
+      z-index: 0;
+     }
+     @media screen and (max-width: 400px){
+      left: 36px;
+      position: relative;
+      top: 299px;
+      width: 100px;
+      z-index: 0;
+     }
+  }
+  .content {
+    display: flex;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+     
+    }
+
+    img {
+      width: 278px;
+      height: 385px;
+      position: relative;
+      top: -100px;
+      @media screen and (max-width: 768px) {
+        margin: 0 auto;
+       
+      }
+    }
+    .data {
+      position: relative;
+      top: -100px;
+      padding-left: 40px;
+      @media screen and (max-width: 768px){
+        padding: 30px;
+      }
+      h3 {
+        text-align: left;
+        font: normal normal normal 26px/40px Italiana;
+        letter-spacing: 0px;
+        color: #ffffff6e;
+        opacity: 1;
+      }
+      h4 {
+        text-align: left;
+        font: normal normal normal 16px/32px Libre Caslon Text;
+        letter-spacing: 0.16px;
+        color: #ffffffbd;
+        opacity: 1;
+      }
+      p {
+        text-align: left;
+        font: normal normal normal 14px/20px $libre;
+        letter-spacing: 0.56px;
+        color: $highlight;
+        text-transform: capitalize;
+        opacity: 1;
+        line-height: 1.5
+      }
+      .navigation {
+        display: flex;
+        @media screen and (max-width: 768px) {
+          flex-direction: column;
+         
+        }
+        .buttons {
+          padding: 2rem 0;
+          display: flex;
+          width: 100%;
+          justify-content: space-around;
+          align-items: center;
+          color: white;
+          position: relative;
+          top: 10px;
+          .left {
+            transform: rotate(180deg);
+          }
+          div {
+            width: 2.5rem;
+            img {
+              width: 46px;
+              height: auto;
+              position: relative;
+              top: 1px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.slider {
+  position: relative;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// .slide {
+//   opacity: 0.5;
+//   transition-duration: 1s ease;
+//   .active{
+//     opacity: 1;
+//     transition-duration: 1s;
+//     transform: scale(1.80);
+
+//   }
+// }
+.title{
+  font: normal normal normal 64px/75px "Italiana", serif;
+  letter-spacing: 0px;
+  color: $highlight;
+  //opacity: 0.5;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+  text-align: center;
+}

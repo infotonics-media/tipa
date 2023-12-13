@@ -1,0 +1,124 @@
+@import "../css/_utility";
+.main {
+  background-color: black;
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  @media screen and (max-width: 500px) {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .v1 {
+    position: relative;
+    flex: 0.6 1;
+    height: 270px;
+    margin-right: 1rem;
+    /* background: url(../img/grid1.png); */
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    margin-top: 12px;
+    @media screen and (max-width: 500px) {
+      flex: 1 1;
+      min-width: 90%;
+      margin-right: 0rem;
+      margin-top: 12px;
+    }
+  }
+  .v2 {
+    position: relative;
+    flex: 0.4 1;
+    height: 270px;
+    margin-right: 1rem;
+    /* background: url(../img/grid1.png); */
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    margin-top: 12px;
+    @media screen and (max-width: 500px) {
+      flex: 1 1;
+      min-width: 90%;
+      margin-right: 0rem;
+      margin-top: 12px;
+    }
+  }
+  .v3 {
+    position: relative;
+    flex: 0.3 1;
+    height: 270px;
+    margin-right: 1rem;
+    /* background: url(../img/grid1.png); */
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    margin-top: 12px;
+    @media screen and (max-width: 500px) {
+      flex: 1 1;
+      min-width: 90%;
+      margin-right: 0rem;
+      margin-top: 12px;
+    }
+  }
+  .v4 {
+    position: relative;
+    flex: 0.6 1;
+    height: 270px;
+    margin-right: 1rem;
+    /* background: url(../img/grid1.png); */
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    margin-top: 12px;
+    @media screen and (max-width: 500px) {
+      flex: 1 1;
+      min-width: 90%;
+      margin-right: 0rem;
+      margin-top: 12px;
+    }
+  }
+  .v5 {
+    position: relative;
+    flex: 0.4 1;
+    height: 270px;
+    margin-right: 1rem;
+    /* background: url(../img/grid1.png); */
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    margin-top: 12px;
+    @media screen and (max-width: 500px) {
+      flex: 1 1;
+      min-width: 90%;
+      margin-right: 0rem;
+      margin-top: 12px;
+    }
+  }
+  .v6 {
+    position: relative;
+    flex: 0.3 1;
+    height: 270px;
+    margin-right: 1rem;
+    /* background: url(../img/grid1.png); */
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    margin-top: 12px;
+    @media screen and (max-width: 500px) {
+      flex: 1 1;
+      min-width: 90%;
+      margin-right: 0rem;
+      margin-top: 12px;
+    }
+  }
+}
+.gtitle {
+  font: normal normal normal 64px/75px "Italiana", serif;
+  letter-spacing: 0px;
+  color: $highlight;
+  //opacity: 0.5;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+  text-align: center;
+}

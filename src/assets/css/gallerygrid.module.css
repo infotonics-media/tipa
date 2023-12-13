@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap");
+.main {
+  background-color: black;
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 500px) {
+  .main {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+.main .v1 {
+  position: relative;
+  flex: 0.6 1;
+  height: 270px;
+  margin-right: 1rem;
+  /* background: url(../img/grid1.png); */
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  margin-top: 12px;
+}
+@media screen and (max-width: 500px) {
+  .main .v1 {
+    flex: 1 1;
+    min-width: 90%;
+    margin-right: 0rem;
+    margin-top: 12px;
+  }
+}
+.main .v2 {
+  position: relative;
+  flex: 0.4 1;
+  height: 270px;
+  margin-right: 1rem;
+  /* background: url(../img/grid1.png); */
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  margin-top: 12px;
+}
+@media screen and (max-width: 500px) {
+  .main .v2 {
+    flex: 1 1;
+    min-width: 90%;
+    margin-right: 0rem;
+    margin-top: 12px;
+  }
+}
+.main .v3 {
+  position: relative;
+  flex: 0.3 1;
+  height: 270px;
+  margin-right: 1rem;
+  /* background: url(../img/grid1.png); */
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  margin-top: 12px;
+}
+@media screen and (max-width: 500px) {
+  .main .v3 {
+    flex: 1 1;
+    min-width: 90%;
+    margin-right: 0rem;
+    margin-top: 12px;
+  }
+}
+.main .v4 {
+  position: relative;
+  flex: 0.6 1;
+  height: 270px;
+  margin-right: 1rem;
+  /* background: url(../img/grid1.png); */
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  margin-top: 12px;
+}
+@media screen and (max-width: 500px) {
+  .main .v4 {
+    flex: 1 1;
+    min-width: 90%;
+    margin-right: 0rem;
+    margin-top: 12px;
+  }
+}
+.main .v5 {
+  position: relative;
+  flex: 0.4 1;
+  height: 270px;
+  margin-right: 1rem;
+  /* background: url(../img/grid1.png); */
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  margin-top: 12px;
+}
+@media screen and (max-width: 500px) {
+  .main .v5 {
+    flex: 1 1;
+    min-width: 90%;
+    margin-right: 0rem;
+    margin-top: 12px;
+  }
+}
+.main .v6 {
+  position: relative;
+  flex: 0.3 1;
+  height: 270px;
+  margin-right: 1rem;
+  /* background: url(../img/grid1.png); */
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  margin-top: 12px;
+}
+@media screen and (max-width: 500px) {
+  .main .v6 {
+    flex: 1 1;
+    min-width: 90%;
+    margin-right: 0rem;
+    margin-top: 12px;
+  }
+}
+
+.gtitle {
+  font: normal normal normal 64px/75px "Italiana", serif;
+  letter-spacing: 0px;
+  color: #ebcd8b;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+  text-align: center;
+}/*# sourceMappingURL=gallerygrid.module.css.map */

@@ -1,0 +1,95 @@
+.partnerContent {
+  background-color: white;
+}
+.partnerContent .hero {
+  margin-top: -150px;
+  padding-top: 150px;
+  width: 100%;
+  height: 50vh;
+  background-image: linear-gradient(to RIght, #000000b9, #0000003d), url("../img/partner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.partnerContent .hero .data {
+  width: 30%;
+  height: 100%;
+  margin-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.partnerContent .hero .data .partnerName {
+  font-size: 32px;
+  letter-spacing: 3.2px;
+  line-height: 48px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+.partnerContent .hero .data .socialShare {
+  margin-bottom: 35px;
+}
+.partnerContent .hero .data .socialShare svg {
+  margin-right: 1.2rem;
+}
+.partnerContent .hero .data .desc {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+  color: white;
+}
+@media only screen and (max-width: 769px) {
+  .partnerContent .hero .data {
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+  }
+}
+.partnerContent .content {
+  width: 50%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.partnerContent .content .partnerLogo {
+  width: 20%;
+}
+.partnerContent .content .partnerLogo img {
+  width: 100%;
+}
+.partnerContent .content .description {
+  font-size: 20px;
+  line-height: 32px;
+}
+@media only screen and (max-width: 769px) {
+  .partnerContent .content {
+    width: 90%;
+    margin: 2rem auto;
+    align-items: center;
+    text-align: left;
+  }
+  .partnerContent .content .partnerLogo {
+    width: 30%;
+  }
+  .partnerContent .content .partnerLogo img {
+    width: 100%;
+  }
+}
+.partnerContent .brandGallery {
+  margin: 5rem 0;
+}
+.partnerContent .brandGallery .in-v-header {
+  text-align: center;
+}
+.partnerContent .videoBanner-sec {
+  margin: 8rem 0;
+}
+@media only screen and (max-width: 769px) {
+  .partnerContent .videoBanner-sec {
+    margin-bottom: 1rem;
+  }
+}/*# sourceMappingURL=partnerContent.css.map */

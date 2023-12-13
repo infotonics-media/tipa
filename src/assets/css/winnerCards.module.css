@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap");
+.card {
+  width: 282px;
+  height: auto;
+  text-align: center;
+  background: transparent linear-gradient(2deg, #000000 0%, #121212 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid #ffffff33;
+  opacity: 1;
+  color: #CDB071;
+  margin: 22px 22px;
+}
+@media screen and (max-width: 769px) {
+  .card {
+    width: 282px;
+    height: auto;
+  }
+}
+
+.contentSection {
+  width: 218px;
+  height: 133px;
+  margin: 0 auto;
+}
+.contentSection hr {
+  border: 1px solid #ffffff1c;
+  opacity: 1;
+}
+.contentSection h2 {
+  font: normal normal normal 14px/28px "Libre Caslon Text", serif;
+  letter-spacing: 0px;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.contentSection p {
+  font: normal normal normal 14px/17px "Libre Caslon Text", serif;
+  letter-spacing: 0.56px;
+  text-transform: capitalize;
+  opacity: 1;
+  line-height: 1.5;
+}
+
+.year {
+  margin-top: 3rem;
+  font-size: 3rem;
+  color: #cdb071;
+  font: normal normal normal 37px/43px "Italiana", serif;
+  letter-spacing: 0px;
+  opacity: 0.5;
+  text-align: center;
+}
+
+.title {
+  font: normal normal normal 64px/75px "Italiana", serif;
+  letter-spacing: 0px;
+  color: #ebcd8b;
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.cardsection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 75vw;
+  margin: 0 auto;
+}
+
+.hide {
+  display: none;
+}
+
+.showMOre {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #cdb071;
+  text-transform: uppercase;
+}
+
+.btn {
+  padding: 0.5rem;
+  width: 3rem;
+  transform: rotate(90deg);
+  text-align: center;
+  margin: 0 auto;
+}/*# sourceMappingURL=winnerCards.module.css.map */

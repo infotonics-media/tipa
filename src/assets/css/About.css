@@ -1,0 +1,16 @@
+.about .text .desc .para {
+  text-align: center;
+  font: normal normal normal 16px/32px Libre Caslon Text;
+  letter-spacing: 0.16px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.about .text .heading .head {
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 550px) {
+  .about .text .desc .para {
+    font-size: 18px;
+  }
+}

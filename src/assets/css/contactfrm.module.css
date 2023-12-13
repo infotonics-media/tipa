@@ -1,0 +1,106 @@
+.name {
+  color: white;
+  width: 480px;
+  height: 105px;
+  border-bottom: solid 1px gold;
+  border-top: solid 1px gold;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.phone {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-32) var(--unnamed-font-family-libre-caslon-text);
+  letter-spacing: var(--unnamed-character-spacing-0-16);
+  color: var(--on-surface-white-60-);
+  font: normal normal normal 16px/32px Libre Caslon Text;
+  letter-spacing: 0.16px;
+  color: #ffffffb3;
+  opacity: 1;
+  border-right: solid 1px gold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.phon {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-32) var(--unnamed-font-family-libre-caslon-text);
+  letter-spacing: var(--unnamed-character-spacing-0-16);
+  color: var(--on-surface-white-60-);
+  font: normal normal normal 16px/32px Libre Caslon Text;
+  letter-spacing: 0.16px;
+  color: #ffffffb3;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input,
+textarea {
+  background-color: transparent !important;
+  border: none !important;
+  color: #ffffffb3 !important;
+}
+
+.restfrm div {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 1px gold;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-32) var(--unnamed-font-family-libre-caslon-text);
+  letter-spacing: var(--unnamed-character-spacing-0-16);
+  color: var(--on-surface-white-60-);
+  font: normal normal normal 16px/32px Libre Caslon Text;
+  letter-spacing: 0.16px;
+  color: #ffffffb3;
+  opacity: 1;
+  height: 85px;
+  padding-left: 47px;
+  padding-top: 12px;
+}
+
+form {
+  width: 480px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+}
+form button {
+  padding: 0.6rem 3rem;
+  border-radius: 10px 0;
+  background: transparent linear-gradient(180deg, #c1a14a 0%, #3c2e09 100%) 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  text-decoration: none;
+  width: 30%;
+}
+
+.thankyou {
+  color: white;
+  width: 480px;
+  height: auto;
+  border-bottom: solid 1px gold;
+  border-top: solid 1px gold;
+  display: flex;
+  flex-direction: column;
+}
+.thankyou h3 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 63px/var(--unnamed-line-spacing-74) var(--unnamed-font-family-italiana);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--heading-text-50-);
+  text-align: left;
+  font: normal normal normal 63px/74px Italiana;
+  letter-spacing: 0px;
+  color: #cdb07180;
+  text-transform: capitalize;
+  opacity: 1;
+  text-align: center;
+}
+.thankyou p {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-32) var(--unnamed-font-family-libre-caslon-text);
+  letter-spacing: var(--unnamed-character-spacing-0-16);
+  color: var(--on-surface-white-60-);
+  text-align: left;
+  font: normal normal normal 16px/32px Libre Caslon Text;
+  letter-spacing: 0.16px;
+  color: #ffffffb3;
+  opacity: 1;
+}/*# sourceMappingURL=contactfrm.module.css.map */

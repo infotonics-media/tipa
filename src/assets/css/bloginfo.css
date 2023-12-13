@@ -1,0 +1,532 @@
+.blog-wrapper {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.blog-navbar {
+  width: 80%;
+  margin: 5% auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.blog-navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.nomination-page-footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.blog-nav-logo {
+  margin-top: 44px;
+  margin-left: 90px;
+  width: 120px;
+  z-index: 100;
+}
+.blog-nav-menu {
+  margin-right: 60px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: larger;
+  color: #cdb071;
+  cursor: pointer;
+  z-index: 100;
+}
+.v-post-date {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 20px;
+  color: #928F8F;
+}
+
+@media screen and (max-width: 550px) {
+  .blog-nav-menu {
+  margin-right: 10px;
+  margin-top: 10px;
+  font-weight: normal;
+}
+}
+.blog-bg-1 {
+  width: 100%;
+  background: transparent
+    linear-gradient(180deg, #00334e 0%, #00334e 67%, #fff 67%, #fff 100%) 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  padding-bottom: 6rem;
+}
+
+.blog-heading {
+  top: 44px;
+  left: 90.17px;
+  width: 105.56px;
+  height: 29.5px;
+}
+
+.blog-heading > img {
+  height: 100%;
+  width: 100%;
+}
+
+.blog-menu {
+  right: 63px;
+  top: 32px;
+  width: 46px;
+  height: 24px;
+  text-align: left;
+  font: normal normal 600 20px/24px Cormorant Garamond;
+  letter-spacing: 0px;
+  color: #cdb071;
+  opacity: 1;
+  font-weight: 200;
+}
+
+.blog-date {
+  text-align: center;
+  font: normal normal normal 10px/20px Libre Caslon Display;
+  letter-spacing: 2px;
+  color: #b1b1b1;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.blog-caption {
+  width: 52%;
+  text-align: center;
+  font: normal normal normal 16px/26px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin: 2% auto;
+}
+.social-blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 10%;
+  margin: 3% auto;
+  flex-wrap: nowrap;
+}
+
+.blog-title {
+  position: relative;
+  width: 40%;
+  margin: 3% auto 5%;
+  text-align: center;
+  font: normal normal normal 40px/64px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.blog-subheading {
+  position: relative;
+  text-align: center;
+  font: normal normal normal 16px/26px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  overflow: hidden;
+-webkit-overflow-scrolling: hidden;
+}
+
+.cover {
+  position: relative;
+  width: 60%;
+  margin: 5% auto 0;
+}
+.cover-caption {
+  text-align: right;
+  font: normal normal normal 12px/20px Libre Caslon Text;
+  letter-spacing: 0px;
+  color: #cbcbcb;
+  opacity: 1;
+}
+
+.blog-details {
+  width: 80%;
+  margin: 3% auto 5%;
+}
+
+.blog-desc-subheading {
+  position: relative;
+  text-align: left;
+  font: normal normal normal 32px/45px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-bottom: 4rem;
+}
+
+.left-v-line {
+  font-size: 4rem;
+  color: #cdb071;
+}
+
+.journey {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.romantic-next-heading {
+  border-left: 2px solid #cdb071;
+  font-size: 32px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #cdb071;
+  padding-left: 2rem;
+  line-height: 40px;
+}
+.true-warrior-next {
+  font-size: 32px;
+  color: #cdb071;
+  line-height: 38px;
+  border-left: 2px solid #cdb071;
+  padding-left: 2.4rem;
+}
+
+.blog-desc-desc {
+  position: relative;
+  text-align: left;
+  font: normal normal normal 20px/28px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.blog-desc-quote {
+  position: relative;
+  border-left: 2px solid #cdb071;
+  opacity: 1;
+  text-align: left;
+  font: normal normal normal 32px/38px Italiana;
+  letter-spacing: 0px;
+  color: #cdb071;
+  opacity: 1;
+}
+
+.blog-desc-desc2 {
+  position: relative;
+  text-align: left;
+  font: normal normal normal 20px/28px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.cover2 {
+  position: relative;
+
+  opacity: 1;
+}
+
+.blog-subheading3 {
+  position: relative;
+  text-align: left;
+  font: normal normal normal 32px/45px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.blog-desc-desc3 {
+  text-align: left;
+  font: normal normal normal 20px/28px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.blog-list > li:first-child {
+  position: relative;
+  text-align: left;
+  font: normal normal normal 20px/32px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.blog-list > li:nth-child(2) {
+  position: relative;
+
+  text-align: left;
+  font: normal normal normal 20px/32px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.blog-list > li:nth-child(3) {
+  position: relative;
+
+  text-align: left;
+  font: normal normal normal 20px/32px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.blog-subheading4 {
+  text-align: left;
+  font: normal normal normal 32px/45px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: capitalize;
+  opacity: 1;
+  position: relative;
+}
+
+.blog-desc-desc4 {
+  position: relative;
+
+  text-align: left;
+  font: normal normal normal 20px/28px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.cover3 {
+  position: relative;
+  opacity: 1;
+}
+
+.blog-list2 > li:first-child {
+  text-align: left;
+  font: normal normal normal 20px/32px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  position: relative;
+}
+
+.blog-list2 > li:nth-child(2) {
+  text-align: left;
+  font: normal normal normal 20px/32px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  position: relative;
+}
+
+.blog-list2 > li:nth-child(3) {
+  text-align: left;
+  font: normal normal normal 20px/32px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  position: relative;
+}
+
+.blog-desc-desc5 {
+  text-align: left;
+  font: normal normal normal 20px/28px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  position: relative;
+}
+
+.blog-related-heading {
+  text-align: center;
+  font: normal normal normal 20px/67px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: uppercase;
+  opacity: 1;
+  position: relative;
+}
+
+.blog-footer {
+  position: relative;
+
+  background: #00334e 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.blog-related-posts {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+  opacity: 1;
+}
+
+.blog-related-posts > .box > .date {
+  text-align: left;
+  font: normal normal normal 12px/20px Libre Caslon Display;
+  letter-spacing: 2.4px;
+  color: #928f8f;
+  text-transform: uppercase;
+  opacity: 1;
+  position: relative;
+}
+.blog-related-posts > .box > .title {
+  text-align: left;
+  font: normal normal normal 24px/28px Libre Caslon Display;
+  letter-spacing: 0px;
+  color: #cdb071;
+  text-transform: uppercase;
+  opacity: 1;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #cdb071;
+}
+
+@media only screen and (max-width: 768px) {
+  .blog-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .blog-navbar {
+    margin-bottom: 6rem;
+  }
+  .blog-bg-1 {
+    background: transparent
+      linear-gradient(180deg, #00334e 0%, #00334e 75%, #fff 75%, #fff 100%) 0%
+      0% no-repeat padding-box;
+    padding-bottom: 3rem;
+  }
+  .blog-caption {
+    width: 100%;
+  }
+
+  .blog-menu {
+    text-align: left;
+    font: normal normal normal 14px/18px Libre Caslon Text;
+    letter-spacing: 0px;
+    color: #cdb071;
+    opacity: 1;
+  }
+  .blog-date {
+    text-align: center;
+    font: normal normal normal 10px/20px Libre Caslon Display;
+    letter-spacing: 2px;
+    color: #b1b1b1;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .blog-title {
+    width: 70%;
+    margin-top: 8% auto 2%;
+    text-align: center;
+    font: normal normal normal 32px/53px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #cdb071;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .social-blog {
+    width: 30%;
+  }
+  .cover {
+    width: 75%;
+    opacity: 1;
+  }
+  .cover-caption {
+    text-align: center;
+  }
+  .blog-desc-subheading {
+    text-align: left;
+    font: normal normal normal 24px/38px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  .blog-desc-desc {
+    text-align: left;
+    font: normal normal normal 20px/28px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+  .blog-desc-desc > p {
+    margin: 30px 0;
+  }
+
+  .blog-related-heading {
+    text-align: center;
+    font: normal normal normal 20px/67px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #cdb071;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+  .blog-related-posts {
+    left: 18px;
+    width: 100%;
+    overflow: auto;
+-webkit-overflow-scrolling: auto;
+    display: block;
+    white-space: nowrap;
+    left: 0px;
+  }
+
+  .blog-related-posts > .box {
+    display: inline-block;
+    white-space: normal;
+    margin-right: 17px;
+    margin-left: 17px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+
+  .blog-related-posts > .box > .date {
+    text-align: left;
+    font: normal normal normal 9px/15px Libre Caslon Display;
+    letter-spacing: 1.8px;
+    color: #928f8f;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+  .blog-related-posts > .box > .title {
+    text-align: left;
+    font: normal normal normal 24px/28px Libre Caslon Display;
+    letter-spacing: 0px;
+    color: #cdb071;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .blog-footer {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+.heros {
+  margin-top: -150px;
+  height: 100vh;
+  width: 100%;
+  /* background-image: linear-gradient(to Top, #1b1f466e, #00000023), url(/static/media/galleryHero.33ce0ce8.png); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blogGrid{
+  display: flex;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 22px;
+  justify-content: center;
+}
