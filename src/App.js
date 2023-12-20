@@ -21,7 +21,10 @@ const App = () => {
   useEffect(() => {
     axios.get('https://backend.theindianpoloawards.com/partners/all-partners/')
       .then((res) => {
-        dispatch(partnerUpdate(res.data))
+        const newres = res.data
+        const newArrv = newres.pop()
+        newres.splice(1, 0, newArrv);
+        dispatch(partnerUpdate(newres))
         // console.log(res.data)
       })
       .catch(err => console.log(err))
@@ -30,7 +33,7 @@ const App = () => {
   useEffect(() => {
     axios.get('https://backend.theindianpoloawards.com/blog/')
       .then((response) => {
-         
+
         dispatch(blogUpdate(response.data?.results))
       }).catch(err => {
         console.log("got an error")
@@ -54,7 +57,7 @@ const App = () => {
           <meta name="description" content="The Indian Polo Awards" />
           <meta name="theme-color" content="#CDBO71" />
         </Helmet>
-          <Routes />
+        <Routes />
       </div>
     </BrowserRouter>
   );

@@ -7,6 +7,7 @@ import { partnerUpdate } from '../store/Actions/Action'
 
 const Partner = () => {
   const [dataIn, setDataIn] = useState(0);
+  const [arrr, setArr] = useState([])
   // const [partnerdetails, setPartnerdetails] = useState([])
   const partnerdetails = useSelector(state => state.FetchApi.Partners)
   // const dispatch = useDispatch()
@@ -20,9 +21,17 @@ const Partner = () => {
   //     .catch(err => console.log(err))
 
   // }, [])
+  // remove last element and save in newArrv
 
-  const partnerdata = partnerdetails.map((data) => (
-    <PartnerData logo={data.logo} desc={data.desc} slug={data.slug} />
+
+
+  // setArr(partnerdetails)
+
+
+
+  // insert again at index 1 (position 2 )
+  const partnerdata = partnerdetails?.map((data) => (
+    <PartnerData logo={data?.logo} desc={data?.desc} slug={data?.slug} />
   ));
   return (
     <div className="partner">
@@ -65,7 +74,7 @@ const Partner = () => {
         </div>
       </div>
       <PartnerStrip title={false} />
-      
+
     </div>
   );
 };
