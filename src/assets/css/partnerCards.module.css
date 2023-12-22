@@ -65,7 +65,13 @@
   z-index: -1;
   height: 441px;
 }
-
+@media (max-width: 767px) {
+  /* Adjust styles for screens with a maximum width of 767px (typical for mobile devices) */
+  .coverimage,
+  .coverimage img {
+    height: auto;
+  }
+}
 p {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-32) var(--unnamed-font-family-libre-caslon-text);
   letter-spacing: var(--unnamed-character-spacing-0-16);
