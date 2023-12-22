@@ -71,6 +71,9 @@
   .coverimage img {
     height: auto;
   }
+   .coverimage{
+    min-height: 100px;
+  }
 }
 p {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-32) var(--unnamed-font-family-libre-caslon-text);
