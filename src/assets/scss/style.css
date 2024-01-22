@@ -670,6 +670,14 @@ img {
   margin: 3rem;
   width: 50%;
   line-height: 2rem;
+  height: 355px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 11;
+  line-clamp: 2;
+  white-space: normal;
+  -webkit-box-orient: vertical;
 }
 @media only screen and (max-width: 500px) {
   .partner .top .main .description {

@@ -36,6 +36,8 @@ import ParnterList from "./layout/ParnterList";
 import PartnerDetails from "./layout/PartnerDetails";
 import Contact from "./layout/Contact";
 import PartnerFrm from "./layout/PartnerFrm";
+import GalleryPage2024 from "./layout/GalleryPage2024";
+import GalleryPage2023 from "./layout/GalleryPage2023";
 
 const Home = () => {
   return (
@@ -47,12 +49,12 @@ const Home = () => {
       <WinnerLayout title="Winners" year="2022" />
       <WinnerLayout title="Winners" year="2021" />
       <TetstimonialsLayout />
-      <GallerySlider title="Gallery"/>
+      <GallerySlider title="Gallery" />
       <Partner />
-      <PitchDesk/>
+      <PitchDesk />
       <InMotion title="in motion" />
       {/* <Stories /> */}
-      <BlogCardsRelated/>
+      <BlogCardsRelated />
       <Awards />
       <Footer />
     </React.Fragment>
@@ -85,7 +87,7 @@ const Routes = () => {
         <PartnerPage />
       </Route>
       <Route exact path="/parnterList">
-       <ParnterList />
+        <ParnterList />
       </Route>
       <Route exact path="/blog">
         <BlogPage />
@@ -114,7 +116,12 @@ const Routes = () => {
       <Route exact path="/gallery2022">
         <GalleryPage2022 />
       </Route>
-      
+      <Route exact path="/gallery2023">
+        <GalleryPage2023 />
+      </Route>
+      <Route exact path="/gallery2024">
+        <GalleryPage2024 />
+      </Route>
       <Route exact path="/press-release">
         <PressRelease />
       </Route>

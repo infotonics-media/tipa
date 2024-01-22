@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import GalleryPopUp from "../components/GalleryPopUp";
 import "../assets/css/galleryPage.css";
-import Nav from "../layout/Nav";
+import Nav from "./Nav";
 import axios from "axios";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import InMotion from "./InMotion";
@@ -31,7 +31,7 @@ const RelatedBlogs = (props) => {
 };
 
 // http://backend.theindianpoloawards.com/gallery/ https://backend.theindianpoloawards.com/gallery/gallery-2022
-const GalleryPage = () => {
+const GalleryPage2023 = () => {
   const blogs = useSelector((state) => state.FetchApi.BlogPost);
   const grid_sec = useRef(null);
   const [data, setData] = useState({
@@ -43,7 +43,7 @@ const GalleryPage = () => {
   const [displayPopUp, setDisplayPopUp] = useState(false);
   useEffect(() => {
     axios
-      .get(ENDPOINT + "gallery/")
+      .get(ENDPOINT + "gallery/gallery-2023")
       .then((res) => {
         setData({
           ...data,
@@ -104,7 +104,7 @@ const GalleryPage = () => {
           <div className="tag">
             <img src={require("../assets/img/tagline/tagline1.png")} alt="" />
           </div>
-          <div className="year italiana">2022</div>
+          <div className="year italiana">2023</div>
           <div
             onClick={() => {
               document.querySelector("html").style.scrollBehavior = "smooth";
@@ -118,10 +118,23 @@ const GalleryPage = () => {
         </div>
         <div className="gallery-content">
           <div className="details">
-            <div className="heading">Gallery</div>
+
+
+            <div className="heading">
+              <Link to="/gallery2024" >Gallery 2024 {" "}</Link>
+              <Link to="/gallery2023" style={{ textDecoration: "underline" }}>Gallery 2023{" "}</Link>
+              <Link to="/gallery2022" >Gallery 2022</Link>
+              {'\u00A0'} {'\u00A0'}
+              <Link to="/gallery2021">Gallery 2021</Link>
+            </div>
+
+
+            <Link to="/gallery2022">
+              <div className="heading">Gallery</div>
+            </Link>
+
             <div className="desc">
               Champions through and through hit the Blue Carpet at Polo’s grandest night!
-
             </div>
           </div>
           <div ref={grid_sec} className="grid-section">
@@ -192,4 +205,4 @@ const GalleryPage = () => {
   );
 };
 
-export default GalleryPage;
+export default GalleryPage2023;

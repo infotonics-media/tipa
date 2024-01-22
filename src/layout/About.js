@@ -38,8 +38,12 @@ const About = () => {
         {/* <div className="backgrnd"></div> */}
         <div className="aboutTitle">
 
+
           <h2> 12<sup>th</sup>  January, 2024.
           </h2>
+
+         
+
         </div>
         <div className="video">
 
