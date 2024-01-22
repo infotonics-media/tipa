@@ -23,7 +23,7 @@ const App = () => {
       .then((res) => {
         const newres = res.data
         const newArrv = newres.pop()
-        newres.splice(1, 0, newArrv);
+        newres.splice(2, 0, newArrv);
         dispatch(partnerUpdate(newres))
         // console.log(res.data)
       })

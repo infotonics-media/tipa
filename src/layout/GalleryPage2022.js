@@ -118,21 +118,23 @@ const GalleryPage2022 = () => {
         </div>
         <div className="gallery-content">
           <div className="details">
-            
-          
+
+
             <div className="heading">
-              <Link to="/gallery2022" style={{textDecoration: "underline"}}>Gallery 2022</Link>
+              <Link to="/gallery2024" >Gallery 2024 {" "}</Link>
+              <Link to="/gallery2023" >Gallery 2023 {" "}</Link>
+              <Link to="/gallery2022" style={{ textDecoration: "underline" }}>Gallery 2022</Link>
               {'\u00A0'} {'\u00A0'}
               <Link to="/gallery2021">Gallery 2021</Link>
             </div>
-         
-          
-          <Link to="/gallery2022">
-            <div className="heading">Gallery</div>
-          </Link>
-          
+
+
+            <Link to="/gallery2022">
+              <div className="heading">Gallery</div>
+            </Link>
+
             <div className="desc">
-            Champions through and through hit the Blue Carpet at Polo’s grandest night!
+              Champions through and through hit the Blue Carpet at Polo’s grandest night!
             </div>
           </div>
           <div ref={grid_sec} className="grid-section">
@@ -196,7 +198,7 @@ const GalleryPage2022 = () => {
           </div>
         </div>
         {/* <GalleryPopUp /> */}
-        <BlogCardsRelated/>
+        <BlogCardsRelated />
         <Footer />
       </div>
     </>
