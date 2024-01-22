@@ -1,7 +1,5 @@
 {
-  "files": {
-    "main.css": "/static/css/main.c604dfac.css",
-    "main.js": "/static/js/main.f57e9898.js",
+
     "static/media/blog ban desktop partners --01.jpg": "/static/media/blog ban desktop partners --01.fe97d0066612ce5c5424.jpg",
     "static/media/blog ban desktop Polo legends--10.jpg": "/static/media/blog ban desktop Polo legends--10.7867a7ef70cb5811895d.jpg",
     "static/media/blog ban desktop  TIPA--06.jpg": "/static/media/blog ban desktop  TIPA--06.ff25f3695e6f89e264b1.jpg",
@@ -48,6 +46,30 @@
     "static/media/How can you not be romantic about Polo.docx": "/static/media/How can you not be romantic about Polo.e83a971f8d1d6adbebd1.docx",
     "static/media/TIPA_ Celebrating A New Milestone.docx": "/static/media/TIPA_ Celebrating A New Milestone.74942945968102a842f6.docx",
     "static/media/TIPA LOGO_ Celebrating Glory.docx": "/static/media/TIPA LOGO_ Celebrating Glory.f86d0bcca7720f52e80a.docx",
+
+    "index.html": "/index.html",
+    "static/media/insta.svg": "/static/media/insta.731c7e14456b0858da5d4deb9ed6e2e9.svg",
+    "static/media/Icon awesome-twitter.svg": "/static/media/Icon awesome-twitter.8b532204c025749d978af2f06474fa05.svg",
+    "static/media/twitter.svg": "/static/media/twitter.6c9c47aea37f7a40cf4431cdacbe9d43.svg",
+    "static/media/external.svg": "/static/media/external.3e2aba504e17be53101c6220272ce54f.svg",
+    "static/media/Icon awesome-facebook-f.svg": "/static/media/Icon awesome-facebook-f.aeb77c85b0e121fbd635ce474adba793.svg",
+    "static/media/facebook.svg": "/static/media/facebook.06488e9e92272432dcdfebf84f858fe8.svg",
+    "main.903271c0.css.map": "/static/css/main.903271c0.css.map",
+    "main.e592a210.js.map": "/static/js/main.e592a210.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.903271c0.css",
+    "static/js/main.e592a210.js"
+=======
+    "main.css": "/static/css/main.37ef942f.chunk.css",
+    "main.js": "/static/js/main.39c36ee2.chunk.js",
+    "main.js.map": "/static/js/main.39c36ee2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.167ca68a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.167ca68a.js.map",
+    "static/css/2.dbf9638d.chunk.css": "/static/css/2.dbf9638d.chunk.css",
+    "static/js/2.d34ef0ca.chunk.js": "/static/js/2.d34ef0ca.chunk.js",
+    "static/js/2.d34ef0ca.chunk.js.map": "/static/js/2.d34ef0ca.chunk.js.map",
+
     "index.html": "/index.html",
     "static/media/insta.svg": "/static/media/insta.731c7e14456b0858da5d4deb9ed6e2e9.svg",
     "static/media/Icon awesome-twitter.svg": "/static/media/Icon awesome-twitter.8b532204c025749d978af2f06474fa05.svg",
@@ -58,8 +80,6 @@
     "main.c604dfac.css.map": "/static/css/main.c604dfac.css.map",
     "main.f57e9898.js.map": "/static/js/main.f57e9898.js.map"
   },
-  "entrypoints": [
-    "static/css/main.c604dfac.css",
-    "static/js/main.f57e9898.js"
+
   ]
 }
