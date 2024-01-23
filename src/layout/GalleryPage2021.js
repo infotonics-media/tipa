@@ -120,12 +120,13 @@ const GalleryPage2022 = () => {
           <div className="details">
 
 
-            <div className="heading">
-              <Link to="/gallery2024">Gallery 2024 {" "}</Link>
-              <Link to="/gallery2023" >Gallery 2023 {" "}</Link>
-              <Link to="/gallery2022" >Gallery 2022 {" "}</Link>
-              {'\u00A0'} {'\u00A0'}
-              <Link to="/gallery2021" style={{ textDecoration: "underline" }}>Gallery 2021</Link>
+            <div className="heading responsive-font-display">
+              <Link to="/gallery2021" style={{ textDecoration: "underline" }}>SEASON 1</Link>
+              {'\u00A0'} {'\u00A0'}{'\u00A0'}
+              <Link to="/gallery2022" >SEASON 2</Link>
+              {'\u00A0'} {'\u00A0'}{'\u00A0'}
+              <Link to="/gallery2024" >SEASON 3 </Link>
+              {'\u00A0'} {'\u00A0'}{'\u00A0'}
             </div>
 
 

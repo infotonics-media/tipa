@@ -3,12 +3,23 @@ import React, { useState, useEffect } from 'react';
 import NomData from '../components/NomData';
 const ENDPOINT = 'https://backend.theindianpoloawards.com/nominations/category-2022';
 const ENDPOINTz = 'https://backend.theindianpoloawards.com/nominations/category-2021';
+const ENDPOINT2024 = 'https://backend.theindianpoloawards.com/nominations/category-2024';
 
 // TIPA emerged from a vision to redefine the experience of Polo by hosting an iconic award show, an occasion inviting the most illustrious names associated with the game, The Indian Polo Award prepares to pay a cumulative regard to a heritage sprawling
 const Nomination = (props) => {
 
 
   const [categories, setcategories] = useState([]);
+  const [category2024, setCategory2024] = useState([]);
+  // set 2024 category
+  useEffect(() => {
+    Axios.get(ENDPOINT2024)
+      .then((res) => {
+        setCategory2024(res.data);
+        // console.log(res);
+      })
+      .catch((err) => console.log(err));
+  }, []);
   useEffect(() => {
     Axios.get(ENDPOINT)
       .then((res) => {
@@ -32,6 +43,18 @@ const Nomination = (props) => {
 
   const [catlenz, setCatlenz] = useState(3);
   const [catlen, setCatlen] = useState(3);
+  const [catlen2024, setCatlen2024] = useState(3);
+  // 2024 map data
+  const catItem2024Item = category2024.map((cat, index) => (
+    <NomData
+      key={cat.id}
+      index={(index + 1).toLocaleString('en-US', {
+        minimumIntegerDigits: 2,
+        useGrouping: false,
+      })}
+      item={cat}
+    />
+  ));
   const catItem = categories.map((cat, index) => (
     <NomData
       key={cat.id}
@@ -53,8 +76,13 @@ const Nomination = (props) => {
       item={cat}
     />
   ));
-
-
+  // if catlent to full
+  useEffect(() => {
+    let nomdata = document.querySelectorAll(".nomdata")
+    if (nomdata.length !== 0) {
+      nomdata[category2024.length - 1].style.opacity = 1
+    }
+  }, [catlen2024])
   useEffect(() => {
     let nomdata = document.querySelectorAll(".nomdata")
     if (nomdata.length !== 0) {
@@ -72,6 +100,30 @@ const Nomination = (props) => {
 
   return (
     <div className="nomination">
+      <div className="year">2024</div>
+      <div className="header">{props.title}</div>
+      <div className="categories">{catItem2024Item.slice(0, catlen2024)}</div>
+      <div className={catlen2024 > category2024.length - 1 ? 'hide' : 'bottom'}>
+        <div className="show">Show all categories</div>
+        <div
+          onClick={() =>
+            setCatlen2024(category2024.length)
+          }
+          className="btn"
+        >
+          <img
+            style={{ cursor: 'pointer' }}
+            src={require('../assets/img/leftarrow.png')}
+            alt="arrow"
+          />
+
+        </div>
+      </div>
+
+
+
+
+
       <div className="year">2022</div>
       <div className="header">{props.title}</div>
       <div className="categories">{catItem.slice(0, catlen)}</div>

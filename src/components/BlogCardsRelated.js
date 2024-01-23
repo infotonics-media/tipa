@@ -16,15 +16,15 @@ function BlogCardsRelated() {
         console.log(error);
       });
   }, []);
-  console.log(blog);
+
   return (
     <>
-    <div class={style.title}>Stories</div>
-    <div className={style.main}>
-      {blog.map((item) => (
-        
-          <div style={{width:"300px"}} key={item.id}>
-            <Link to={"/blog/blog-details/"+item.slug}>
+      <div class={style.title}>Stories</div>
+      <div className={style.main}>
+        {blog.map((item) => (
+
+          <div style={{ width: "300px" }} key={item.id}>
+            <Link to={"/blog/blog-details/" + item.slug}>
               <div>
                 <img
                   src={item.desktopCoveIimage}
@@ -37,9 +37,9 @@ function BlogCardsRelated() {
               <h3 className={style.header}>{item.title}</h3>
             </Link>
           </div>
-       
-      ))}
-       </div>
+
+        ))}
+      </div>
     </>
   );
 }
