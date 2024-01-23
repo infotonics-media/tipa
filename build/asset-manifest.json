@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c604dfac.css",
-    "main.js": "/static/js/main.9b985dce.js",
+    "main.js": "/static/js/main.d403ef8a.js",
     "static/media/blog ban desktop partners --01.jpg": "/static/media/blog ban desktop partners --01.fe97d0066612ce5c5424.jpg",
     "static/media/blog ban desktop Polo legends--10.jpg": "/static/media/blog ban desktop Polo legends--10.7867a7ef70cb5811895d.jpg",
     "static/media/blog ban desktop  TIPA--06.jpg": "/static/media/blog ban desktop  TIPA--06.ff25f3695e6f89e264b1.jpg",
@@ -56,10 +56,10 @@
     "static/media/Icon awesome-facebook-f.svg": "/static/media/Icon awesome-facebook-f.aeb77c85b0e121fbd635ce474adba793.svg",
     "static/media/facebook.svg": "/static/media/facebook.06488e9e92272432dcdfebf84f858fe8.svg",
     "main.c604dfac.css.map": "/static/css/main.c604dfac.css.map",
-    "main.9b985dce.js.map": "/static/js/main.9b985dce.js.map"
+    "main.d403ef8a.js.map": "/static/js/main.d403ef8a.js.map"
   },
   "entrypoints": [
     "static/css/main.c604dfac.css",
-    "static/js/main.9b985dce.js"
+    "static/js/main.d403ef8a.js"
   ]
 }
