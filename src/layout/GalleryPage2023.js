@@ -129,9 +129,6 @@ const GalleryPage2023 = () => {
             </div>
 
 
-            <Link to="/gallery2022">
-              <div className="heading">Gallery</div>
-            </Link>
 
             <div className="desc">
               Champions through and through hit the Blue Carpet at Polo’s grandest night!
