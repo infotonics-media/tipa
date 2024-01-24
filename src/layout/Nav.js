@@ -44,53 +44,53 @@ const Nav = () => {
               paddingInlineStart: "0",
             }}
           >
-            <a href="/home">
+            <Link to="/home">
               <li className="menu-links">
                 <p className="textlign" style={{ margin: 0 }}>Home</p>
               </li>
-            </a>
-            <a href="/videos">
+            </Link>
+            <Link to="/videos">
               <li className="menu-links">
                 <p className="textlign" style={{ margin: 0 }}>Videos</p>
               </li>
-            </a>
-            <a href="/blog">
+            </Link>
+            <Link to="/blog">
               <li className="menu-links">
                 <p className="textlign" style={{ margin: 0 }}>Stories</p>
               </li>
-            </a>
+            </Link>
 
-            <a href="/gallery2022">
+            <Link to="/gallery2022">
               <li className="menu-links">
                 <p className="textlign" style={{ margin: 0 }}>Gallery</p>
               </li>
-            </a>
+            </Link>
 
-            <a href="/parnterList">
+            <Link to="/parnterList">
               <li className="menu-links">
                 <p className="textlign" style={{ margin: 0 }}>Partners</p>
               </li>
-            </a>
-            <a href="/press-release">
+            </Link>
+            <Link to="/press-release">
               <li className="menu-links">
                 <p className="textlign" style={{ margin: 0 }}>Press Release</p>
               </li>
-            </a>
-            <a href="/contact">
+            </Link>
+            <Link to="/contact">
               <li className="menu-links">
                 <p className="textlign" style={{ margin: 0 }}>Contact Form</p>
               </li>
-            </a>
-            <a href="/partnerContact">
+            </Link>
+            <Link to="/partnerContact">
               <li className="menu-links">
                 <p className="textlign" style={{ margin: 0 }}>Partner Form</p>
               </li>
-            </a>
-            <a href="/award-categories">
+            </Link>
+            <Link to="/award-categories">
               <li className="menu-links">
                 <p className="textlign" style={{ margin: 0 }}>Award categories</p>
               </li>
-            </a>
+            </Link>
           </ul>
 
           <div className="social-blog">

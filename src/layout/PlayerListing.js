@@ -31,7 +31,7 @@ const PlayerListing = () => {
       })
 
       .catch((err) => console.log(err));
-  }, []);
+  }, [nomSlug]);
   // useEffect(() => {
   //   if (
   //     window.navigator.platform === "iPhone" &&
@@ -279,7 +279,7 @@ const PlayerListing = () => {
           <Nomination title="Other Awards Categories" />
         </div>
       </div>
-      <BlogCardsRelated/>
+      <BlogCardsRelated />
 
       <div className="listing-footer">
         <Footer />

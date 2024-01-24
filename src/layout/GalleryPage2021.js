@@ -104,7 +104,7 @@ const GalleryPage2022 = () => {
           <div className="tag">
             <img src={require("../assets/img/tagline/tagline1.png")} alt="" />
           </div>
-          <div className="year italiana">2021</div>
+        {/*  <div className="year italiana">2021</div>*/}
           {/* <div
             onClick={() => {
               document.querySelector("html").style.scrollBehavior = "smooth";
