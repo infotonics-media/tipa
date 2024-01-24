@@ -338,7 +338,7 @@
   color: #cdb071;
   opacity: 1;
   overflow: hidden;
--webkit-overflow-scrolling: hidden;
+  -webkit-overflow-scrolling: hidden;
   background-color: #00334e;
   flex: 0.8;
   padding-left: 1rem;
@@ -484,10 +484,10 @@
     height: 30px !important;
     width: 30px !important;
   }
-  .iphone-left{
+  .iphone-left {
     left: 2% !important;
   }
-  .iphone-right{
+  .iphone-right {
     left: auto !important;
     right: 2% !important;
   }
@@ -510,7 +510,7 @@
     text-align: left;
     font: normal normal normal 11px/10px Libre Caslon Display;
     letter-spacing: 0px;
-    color: #cdb071;
+    color: #cdb071 !important;
     text-transform: capitalize;
     opacity: 1;
     margin-left: auto;
@@ -574,7 +574,7 @@
   }
 }
 
-.player-background{
+.player-background {
   background-image: url("../img/player/blur_back.png");
   background-repeat: no-repeat;
   background-position: center;
