@@ -104,8 +104,8 @@ const GalleryPage2022 = () => {
           <div className="tag">
             <img src={require("../assets/img/tagline/tagline1.png")} alt="" />
           </div>
-          <div className="year italiana">2021</div>
-          <div
+        {/*  <div className="year italiana">2021</div>*/}
+          {/* <div
             onClick={() => {
               document.querySelector("html").style.scrollBehavior = "smooth";
               window.scrollTo(0, grid_sec.current.offsetTop - 20);
@@ -114,7 +114,7 @@ const GalleryPage2022 = () => {
             className="button"
           >
             Explore Gallery
-          </div>
+          </div> */}
         </div>
         <div className="gallery-content">
           <div className="details">
@@ -130,9 +130,6 @@ const GalleryPage2022 = () => {
             </div>
 
 
-            <Link to="/gallery2021">
-              <div className="heading">Gallery</div>
-            </Link>
 
             <div className="desc">
               Champions through and through hit the Blue Carpet at Polo’s grandest night!

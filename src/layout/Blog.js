@@ -68,7 +68,7 @@ const Blog = (props) => {
           <a href="https://twitter.com/IndianpoloAwrds" target="_blank" rel="noopener noreferrer">
 
             <img
-              src={Facebook}
+              src={Twitter}
               height="20px"
               width="15px"
               alt="twitter"

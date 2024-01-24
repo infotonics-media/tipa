@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Axios from 'axios';
 import PartnerStrip from '../components/PartnerStrip';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 // here you have to put the mail subscribe link
 const ENDPOINT = 'https://backend.theindianpoloawards.com';
@@ -73,23 +74,23 @@ const Footer = () => {
               <div className="item">
                 <a target="_blank" rel="noopener noreferrer" style={{ textTransform: 'capitalize' }} href={ENDPOINT + pdf}>
                   Associate with us
-              </a>
+                </a>
               </div>
               <div className="item">
-                <a style={{ textTransform: 'capitalize' }} href="/award-categories">
+                <Link style={{ textTransform: 'capitalize' }} to="/award-categories">
                   Award categories
-              </a>
+                </Link>
               </div>
               <div className="item">
 
-                <a style={{ textTransform: 'capitalize' }} href="/privacy-policy">
+                <Link style={{ textTransform: 'capitalize' }} to="/privacy-policy">
                   Privacy policy
-              </a>
+                </Link>
 
               </div>
             </div>
           </div>
-          <div className="subscribe">
+          {/* <div className="subscribe">
             <div className="tag italiana">Monthly wisdom and advice</div>
             {loading ? (
               <div className="loader"></div>
@@ -112,7 +113,7 @@ const Footer = () => {
                     </div>
                   </div>
                 )}
-          </div>
+          </div> */}
         </div>
         <div className="bfooter">
           <div className="copy">&copy; 2021 TIPA all rights reserved</div>
