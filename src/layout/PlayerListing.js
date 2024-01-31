@@ -119,7 +119,7 @@ const PlayerListing = () => {
               ? { justifyContent: "center", marginLeft: 0 }
               : { justifyContent: "space-between" }
           }
-          className="listing-slider-wrapper"
+          className={playerList[0]?.winningYear === 2024 ? "listing-slider-wrapper-2023 listing-slider-wrapper" : "listing-slider-wrapper"}
           ref={scrollRef}
         >
           {playerList.length === 1 && playerList.length !== 0 && (
@@ -134,7 +134,7 @@ const PlayerListing = () => {
                     : { zIndex: 1 }
                 }
                 key={item.id}
-                className="listing-box"
+                className={item?.winningYear === 2024 ? "listing-box-2023 listing-box" : "listing-box"}
               >
                 <img
                   src={
@@ -148,8 +148,9 @@ const PlayerListing = () => {
                       item.profile_photo
                   }
                   alt="stock"
-                  className="user-image"
+                  className={item?.winningYear === 2024 ? "user-image-2023 user-image" : "user-image"}
                 />
+                {console.log(item)}
                 <div className="listing-user-name">{item.title}
 
                 </div>

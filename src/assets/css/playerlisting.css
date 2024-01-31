@@ -240,12 +240,17 @@
   margin-left: 10%;
   margin-right: 0;
 }
-
+.listing-slider-wrapper-2023 {
+  overflow: unset;
+}
 .listing-box {
   display: inline-block;
   height: 100%;
   width: 329px;
   margin-right: 40px;
+}
+.listing-box-2023 {
+  width: unset;
 }
 .listing-scroll-left:active,
 .listing-scroll-left:focus {
@@ -260,7 +265,10 @@
   width: 329px;
   height: 475px;
 }
-
+.user-image-2023 {
+  width: 50%;
+  height: unset;
+}
 .listing-user-name {
   width: 100%;
   text-align: center;
@@ -469,9 +477,15 @@
     min-height: 385px;
     min-width: 226px;
   }
+  .listing-box-2023 {
+    width: unset;
+  }
   .listing-box > img {
     height: 326px;
     width: 100%;
+  }
+  .listing-box-2023 > img {
+    height: unset;
   }
   /* .listing-scroll-left,
   .listing-scroll-right {
