@@ -60,6 +60,9 @@ const About = () => {
             </div> */}
           </div>
         </div>
+
+
+
         <div className="text">
           <div className="heading">
             {/* <div className="head">{about.title}</div> */}
