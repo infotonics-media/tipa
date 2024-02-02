@@ -60,7 +60,7 @@ const Nav = () => {
               </li>
             </Link>
 
-            <Link to="/gallery2022">
+            <Link to="/gallery2024">
               <li className="menu-links">
                 <p className="textlign" style={{ margin: 0 }}>Gallery</p>
               </li>
