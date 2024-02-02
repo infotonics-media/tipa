@@ -53,7 +53,7 @@ const Hero = () => {
               <img
                 src={require("../assets/img/tagline/tagline1.png")}
                 alt="TIPA"
-                style={{width:"80%"}}
+                style={{ width: "80%" }}
               />
             </div>
             {/* <div onClick={() => changeIndex(1)} className="rightarw">

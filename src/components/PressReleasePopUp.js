@@ -17,12 +17,15 @@ const PressReleasePopUp = () => {
       })
       .catch((err) => console.log(err));
   }, []);
-  const img = image?.previous?.map((item) => (
+  const previous = image?.previous?.map((item) => (
     <PressCards key={item.id} item={item} />
   ));
 
   const current = image?.current?.map((item) => (
-    <PressCards key={item.id} item={item} />
+    item?.year !== 2024 && <PressCards key={item.id} item={item} />
+  ));
+  const season3 = image?.current?.map((item) => (
+    item?.year === 2024 && <PressCards key={item.id} item={item} />
   ));
   return (
     <>
@@ -36,17 +39,23 @@ const PressReleasePopUp = () => {
       </div>
       {/* <SRLWrapper> */}
       <div className="title">
-        {/* <p>2022</p> */}
+        <p>2024</p>
+        <h2>Press Release</h2>
+        <h6>Beyond the realms of commemoration this is a diligent tribute to the craft that goes into making the perfect polo player, enchanting the onlooker to bask in the minute details</h6>
+      </div>
+      <div className="presgrid">{season3}</div>
+      <TetstimonialsLayout />
+      <div className="title">
+        <p>2022</p>
         <h2>Press Release</h2>
         <h6>Beyond the realms of commemoration this is a diligent tribute to the craft that goes into making the perfect polo player, enchanting the onlooker to bask in the minute details</h6>
       </div>
       <div className="presgrid">{current}</div>
-      <TetstimonialsLayout/>
       <div className="title">
-        <p>2021</p>
+        <p className="text-center">2021</p>
         <h2>Press Release</h2>
       </div>
-      <div className="presgrid">{img}</div>
+      <div className="presgrid">{previous}</div>
       {/* </SRLWrapper> */}
     </>
   );
