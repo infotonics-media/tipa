@@ -44,7 +44,7 @@ const PressReleasePopUp = () => {
         <h6>Beyond the realms of commemoration this is a diligent tribute to the craft that goes into making the perfect polo player, enchanting the onlooker to bask in the minute details</h6>
       </div>
       <div className="presgrid">{season3}</div>
-      <TetstimonialsLayout />
+      
       <div className="title">
         <p>2022</p>
         <h2>Press Release</h2>
@@ -56,6 +56,7 @@ const PressReleasePopUp = () => {
         <h2>Press Release</h2>
       </div>
       <div className="presgrid">{previous}</div>
+      <TetstimonialsLayout />
       {/* </SRLWrapper> */}
     </>
   );
