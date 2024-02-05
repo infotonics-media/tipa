@@ -150,7 +150,6 @@ const PlayerListing = () => {
                   alt="stock"
                   className={item?.winningYear === 2024 ? "user-image-2023 user-image" : "user-image"}
                 />
-                {console.log(item)}
                 <div className="listing-user-name">{item.title}
 
                 </div>
@@ -277,7 +276,7 @@ const PlayerListing = () => {
             </div>
           </Link> */}
         <div className="listing-nominations">
-          <Nomination title="Other Awards Categories" />
+          <Nomination title="Other Award Categories" />
         </div>
       </div>
       <BlogCardsRelated />
