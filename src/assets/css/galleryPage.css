@@ -56,15 +56,19 @@
   margin-top: 50px;
   margin-bottom: 30px;
 }
+.responsive-font-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 41px;
+}
 @media screen and (max-width: 769px) {
   .galleryPage .gallery-content .details .heading {
     font-size: 30px;
   }
   .responsive-font-display {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    gap: 25px;
   }
 }
 .galleryPage .gallery-content .details .desc {

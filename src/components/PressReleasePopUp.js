@@ -41,10 +41,10 @@ const PressReleasePopUp = () => {
       <div className="title">
         <p>2024</p>
         <h2>Press Release</h2>
-        <h6>Beyond the realms of commemoration this is a diligent tribute to the craft that goes into making the perfect polo player, enchanting the onlooker to bask in the minute details</h6>
+        <h6>Here is a quick recap of the La Polo Indian Polo Awards held at the iconic Taj Maha Palace Hotel in Mumbai. The event was a resounding success as many nationally and internationally renowned polo personalities celebrated this prestigious sport. Keeping with the tradition of commemorating the timeless elan and the undaunted spirit of skilled sportsmanship, this year’s edition focuses on the calibre and the dedication innate to the polo sportsperson's persona.</h6>
       </div>
       <div className="presgrid">{season3}</div>
-      
+
       <div className="title">
         <p>2022</p>
         <h2>Press Release</h2>
